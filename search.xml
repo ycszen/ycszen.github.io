@@ -4,10 +4,27 @@
   
     
     <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>http://ycszen.github.io/2016/08/12/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[皮囊下的我]]></title>
       <url>http://ycszen.github.io/2016/08/12/%E7%9A%AE%E5%9B%8A%E4%B8%8B%E7%9A%84%E6%88%91/</url>
       <content type="html"><![CDATA[<p>原以为《皮囊》一书是一本地地道道的鸡汤文，所以并有太多读的欲望。但是，皮囊 二字却总是有着某种莫名的吸引力，在书店里时不时牵扯我的注意力。</p>
 <p>昨晚，读完了此书。初读此书，正值刚读完《白鹿原》之际，看罢了原上的兴衰变迁，再看这一家人的起伏难免感觉有些小家子气。直至后来，看见“厚朴”之时内心更多的是对“黑狗达”的讥讽。一直到最后，一文结束，静思良久，才发现看到的，读到的更多是我，皮囊下的不是别人，正是我啊。</p>
+<a id="more"></a>
 <p>最开始觉得像自己的是厚朴，这个英译过来的名字，确实带着几分土气。这个永远充满激情，对生活充满热情的少年，和我是多么的相似。我们都曾无视他人看法的活着，都曾那样用力的活着。生命就此一次，不用来燃烧岂不是太浪费？在别人看来，我总是充满了正能量，像一颗小太阳；我总是肆无忌惮的大笑，像没有什么可以让我悲伤；我总是宣告着我一次次的计划，一次次的成就，就像我在不停的炫耀。有人不解，有人鄙视。就像厚朴告诉了大家自己名字的来源和“世界地图”之后，面对同学的窃窃私语，和指指点点，他从来是大步上前，勇敢面对，勾住对方的肩，大声说：“同学，对我感兴趣？咱俩聊聊”。我喜欢这样的生活态度，大多时候我也秉承着这样的生活方式，勇敢，义无反顾。</p>
 <p>所以，在喜欢厚朴的同时，也累积着我对作者“黑狗达”的鄙夷。</p>
 <p>黑狗达活得太现实了。他提醒厚朴别告诉别人名字的来源，因为他始终在意着别人的看法，在意别人会不会嘲笑，会不会对他产生不好的想法。现实已将他磨砺得有些市侩。但是，在我看来，他也在用力，虽然他一直不喜欢厚朴这样用力生活的方式，但是他一直却在这样做，只不过厚朴是用力的燃烧，而他是在用力的隐藏。甚至于到黑狗达评论厚朴和王子逸的爱情是互相利用时，我觉得这是他卑劣的想法，以己度人之下隐藏着对厚朴那样炽热生命的嫉妒。</p>
@@ -20,21 +37,6 @@
 <p>但是，我和黑狗达还是不一样的。他是一个恋家的人，但是我不是。小学在外婆叔姨家，中学在县城住校，有时候去小姨家，大学在陌生的省城住校。父母整日在外奔波，曾经修的房子没人住不算家。所以现在想想有时候会觉得自己没有归宿，就像无根的落叶不知道会飘向何处。但是，正是如此，我会更加珍惜自己周围有的一切，用力的爱自己周围的一切人。这样算下来，有父母的地方就算我的家，外婆家也是我的家，中学的学校也是我的家，大学也是我的家。我一直对别人说，我是一个喜欢闯荡的人，在一个地方待久了我会烦。但是，我知道这只是怕我自己没有了离开的勇气，停下了去追逐梦想的脚步。我想，某一天，我也会为某一个人停留，我们再一起好好经营一个家。</p>
 <p>这就是我，皮囊下的我。就像黑狗达一样，我也会很现实，精明，对世事有自己的考量，拼命往前，用力去挣扎反抗；就像厚朴一样，我也会对生活爆发自己的热情，燃烧生命，尽力去喜欢，用力去活着；就像书展一样，我也喜欢对生活对人生进行各种规划，有着自己的想法，天真的以为自己“天命所归”。</p>
 <p>谢谢你们，让我剖开皮囊，认真审视了我。</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>http://ycszen.github.io/2016/08/11/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     </entry>
     
