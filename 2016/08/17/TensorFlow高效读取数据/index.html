@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="技术笔记,TensorFlow," />
 
 
 
@@ -84,19 +84,34 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="概述 关于Tensorflow读取数据，官网给出了三种方法：
+
+供给数据(Feeding)： 在TensorFlow程序运行的每一步， 让Python代码来供给数据。
+从文件读取数据： 在TensorFlow图的起始， 让一个输入管线从文件中读取数据。
+预加载数据： 在TensorFlow图中定义常量或变量来保存所有数据(仅适用于数据量比较小的情况)。
+
+对于数据量较小而言，可能一般选择直接将数据">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://ycszen.github.io/2016/08/12/hello-world/index.html">
+<meta property="og:title" content="TensorFlow高效读取数据">
+<meta property="og:url" content="http://ycszen.github.io/2016/08/17/TensorFlow高效读取数据/index.html">
 <meta property="og:site_name" content="Ycszen-物语">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-08-12T07:00:08.787Z">
+<meta property="og:description" content="概述 关于Tensorflow读取数据，官网给出了三种方法：
+
+供给数据(Feeding)： 在TensorFlow程序运行的每一步， 让Python代码来供给数据。
+从文件读取数据： 在TensorFlow图的起始， 让一个输入管线从文件中读取数据。
+预加载数据： 在TensorFlow图中定义常量或变量来保存所有数据(仅适用于数据量比较小的情况)。
+
+对于数据量较小而言，可能一般选择直接将数据">
+<meta property="og:updated_time" content="2016-08-17T11:42:00.375Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="TensorFlow高效读取数据">
+<meta name="twitter:description" content="概述 关于Tensorflow读取数据，官网给出了三种方法：
+
+供给数据(Feeding)： 在TensorFlow程序运行的每一步， 让Python代码来供给数据。
+从文件读取数据： 在TensorFlow图的起始， 让一个输入管线从文件中读取数据。
+预加载数据： 在TensorFlow图中定义常量或变量来保存所有数据(仅适用于数据量比较小的情况)。
+
+对于数据量较小而言，可能一般选择直接将数据">
 
 
 
@@ -117,9 +132,9 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://ycszen.github.io/2016/08/12/hello-world/"/>
+  <link rel="canonical" href="http://ycszen.github.io/2016/08/17/TensorFlow高效读取数据/"/>
 
-  <title> Hello World | Ycszen-物语 </title>
+  <title> TensorFlow高效读取数据 | Ycszen-物语 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -270,7 +285,7 @@ Quick">
             
             
               
-                Hello World
+                TensorFlow高效读取数据
               
             
           </h1>
@@ -282,19 +297,38 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-12T15:00:08+08:00" content="2016-08-12">
-              2016-08-12
+            <time itemprop="dateCreated" datetime="2016-08-17T19:23:20+08:00" content="2016-08-17">
+              2016-08-17
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">技术笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/08/12/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/12/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2016/08/17/TensorFlow高效读取数据/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/17/TensorFlow高效读取数据/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -304,7 +338,7 @@ Quick">
 
           
           
-             <span id="/2016/08/12/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2016/08/17/TensorFlow高效读取数据/" class="leancloud_visitors" data-flag-title="TensorFlow高效读取数据">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -326,16 +360,42 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p> 关于Tensorflow读取数据，官网给出了三种方法：</p>
+<ul>
+<li><strong>供给数据(Feeding)</strong>： 在TensorFlow程序运行的每一步， 让Python代码来供给数据。</li>
+<li><strong>从文件读取数据</strong>： 在TensorFlow图的起始， 让一个输入管线从文件中读取数据。</li>
+<li><strong>预加载数据</strong>： 在TensorFlow图中定义常量或变量来保存所有数据(仅适用于数据量比较小的情况)。</li>
+</ul>
+<p>对于数据量较小而言，可能一般选择直接将数据加载进内存，然后再分<code>batch</code>输入网络进行训练（tip:使用这种方法时，结合<code>yield</code> 使用更为简洁，大家自己尝试一下吧，我就不赘述了）。但是，如果数据量较大，这样的方法就不适用了，因为太耗内存，所以这时最好使用tensorflow提供的队列<code>queue</code>，也就是第二种方法 <strong>从文件读取数据</strong>。对于一些特定的读取，比如csv文件格式，官网有相关的描述，在这儿我介绍一种比较通用，高效的读取方法（官网介绍的少），即使用tensorflow内定标准格式——<code>TFRecords</code></p>
+<p>太长不看，直接看源码请猛戳我的<a href="https://github.com/ycszen/tf_lab/blob/master/reading_data/example_tfrecords.py" target="_blank" rel="external">github</a></p>
+<hr>
+<h1 id="TFRecords"><a href="#TFRecords" class="headerlink" title="TFRecords"></a>TFRecords</h1><p>TFRecords其实是一种二进制文件，虽然它不如其他格式好理解，但是它能更好的利用内存，更方便复制和移动，并且不需要单独的标签文件（等会儿就知道为什么了）… …总而言之，这样的文件格式好处多多，所以让我们用起来吧。</p>
+<p>TFRecords文件包含了<code>tf.train.Example</code> 协议内存块(protocol buffer)(协议内存块包含了字段 <code>Features</code>)。我们可以写一段代码获取你的数据， 将数据填入到<code>Example</code>协议内存块(protocol buffer)，将协议内存块序列化为一个字符串， 并且通过<code>tf.python_io.TFRecordWriter</code> 写入到TFRecords文件。</p>
+<p>从TFRecords文件中读取数据， 可以使用<code>tf.TFRecordReader</code>的<code>tf.parse_single_example</code>解析器。这个操作可以将<code>Example</code>协议内存块(protocol buffer)解析为张量。</p>
+<p>接下来，让我们开始读取数据之旅吧~</p>
+<h1 id="生成TFRecords文件"><a href="#生成TFRecords文件" class="headerlink" title="生成TFRecords文件"></a>生成TFRecords文件</h1><p> 我们使用<code>tf.train.Example</code>来定义我们要填入的数据格式，然后使用<code>tf.python_io.TFRecordWriter</code>来写入。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf </div><div class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</div><div class="line"></div><div class="line">cwd = os.getcwd()</div><div class="line"></div><div class="line"><span class="string">'''</span></div><div class="line">此处我加载的数据目录如下：</div><div class="line">0 -- img1.jpg</div><div class="line">     img2.jpg</div><div class="line">     img3.jpg</div><div class="line">     ...</div><div class="line">1 -- img1.jpg</div><div class="line">     img2.jpg</div><div class="line">     ...</div><div class="line">2 -- ...</div><div class="line">...</div><div class="line">'''</div><div class="line">writer = tf.python_io.TFRecordWriter(<span class="string">"train.tfrecords"</span>)</div><div class="line"><span class="keyword">for</span> index, name <span class="keyword">in</span> enumerate(classes):</div><div class="line">    class_path = cwd + name + <span class="string">"/"</span></div><div class="line">    <span class="keyword">for</span> img_name <span class="keyword">in</span> os.listdir(class_path):</div><div class="line">        img_path = class_path + img_name</div><div class="line">            img = Image.open(img_path)</div><div class="line">            img = img.resize((<span class="number">224</span>, <span class="number">224</span>))</div><div class="line">        img_raw = img.tobytes()              <span class="comment">#将图片转化为原生bytes</span></div><div class="line">        example = tf.train.Example(features=tf.train.Features(feature=&#123;</div><div class="line">            <span class="string">"label"</span>: tf.train.Feature(int64_list=tf.train.Int64List(value=[index])),</div><div class="line">            <span class="string">'img_raw'</span>: tf.train.Feature(bytes_list=tf.train.BytesList(value=[img_raw]))</div><div class="line">        &#125;))</div><div class="line">        writer.write(example.SerializeToString())  <span class="comment">#序列化为字符串</span></div><div class="line">writer.close()</div></pre></td></tr></table></figure>
+<p> 关于<code>Example</code> <code>Feature</code>的相关定义和详细内容，我推荐去官网查看相关API。</p>
+<p>基本的，一个<code>Example</code>中包含<code>Features</code>，<code>Features</code>里包含<code>Feature</code>（这里没s）的字典。最后，<code>Feature</code>里包含有一个 <code>FloatList</code>， 或者<code>ByteList</code>，或者<code>Int64List</code></p>
+<p> 就这样，我们把相关的信息都存到了一个文件中，所以前面才说不用单独的label文件。而且读取也很方便。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> serialized_example <span class="keyword">in</span> tf.python_io.tf_record_iterator(<span class="string">"train.tfrecords"</span>):</div><div class="line">    example = tf.train.Example()</div><div class="line">    example.ParseFromString(serialized_example)</div><div class="line"></div><div class="line">	image = example.features.feature[<span class="string">'image'</span>].bytes_list.value</div><div class="line">    label = example.features.feature[<span class="string">'label'</span>].int64_list.value</div><div class="line">    <span class="comment"># 可以做一些预处理之类的</span></div><div class="line">    <span class="keyword">print</span> image, label</div></pre></td></tr></table></figure>
+<h1 id="使用队列读取"><a href="#使用队列读取" class="headerlink" title="使用队列读取"></a>使用队列读取</h1><p> 一旦生成了TFRecords文件，接下来就可以使用队列（<code>queue</code>）读取数据了。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">read_and_decode</span><span class="params">(filename)</span>:</span></div><div class="line">	<span class="comment">#根据文件名生成一个队列</span></div><div class="line">    filename_queue = tf.train.string_input_producer([filename])</div><div class="line"></div><div class="line">    reader = tf.TFRecordReader()</div><div class="line">    _, serialized_example = reader.read(filename_queue)   <span class="comment">#返回文件名和文件</span></div><div class="line">    features = tf.parse_single_example(serialized_example,</div><div class="line">                                       features=&#123;</div><div class="line">                                           <span class="string">'label'</span>: tf.FixedLenFeature([], tf.int64),</div><div class="line">                                           <span class="string">'img_raw'</span> : tf.FixedLenFeature([], tf.string),</div><div class="line">                                       &#125;)</div><div class="line"></div><div class="line">    img = tf.decode_raw(features[<span class="string">'img_raw'</span>], tf.uint8)</div><div class="line">    img = tf.reshape(img, [<span class="number">224</span>, <span class="number">224</span>, <span class="number">3</span>])</div><div class="line">    img = tf.cast(img, tf.float32) * (<span class="number">1.</span> / <span class="number">255</span>) - <span class="number">0.5</span></div><div class="line">    label = tf.cast(features[<span class="string">'label'</span>], tf.int32)</div><div class="line"></div><div class="line">    <span class="keyword">return</span> img, label</div></pre></td></tr></table></figure></p>
+<p> 之后我们可以在训练的时候这样使用<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">img, label = read_and_decode(<span class="string">"train.tfrecords"</span>)</div><div class="line"></div><div class="line"><span class="comment"># 使用shuffle_batch可以随机打乱输入</span></div><div class="line">img_batch, label_batch = tf.train.shuffle_batch([img, label],</div><div class="line">                                                batch_size=<span class="number">30</span>, capacity=<span class="number">2000</span>,</div><div class="line">                                                min_after_dequeue=<span class="number">1000</span>)</div><div class="line">init = tf.initialize_all_variables()</div><div class="line"></div><div class="line"><span class="keyword">with</span> tf.Session() <span class="keyword">as</span> sess:</div><div class="line">    sess.run(init)</div><div class="line">    threads = tf.train.start_queue_runners(sess=sess)</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">3</span>):</div><div class="line">        val, l= sess.run([img_batch, label_batch])</div><div class="line">        <span class="comment">#我们也可以根据需要对val， l进行处理</span></div><div class="line">        <span class="comment">#l = to_categorical(l, 12) </span></div><div class="line">        print(val.shape, l)</div></pre></td></tr></table></figure></p>
+<p> 至此，tensorflow高效从文件读取数据差不多完结了。</p>
+<p> 恩？等等…什么叫差不多？对了，还有几个<strong>注意事项</strong>：</p>
+<p> 第一，tensorflow里的graph能够记住状态（<code>state</code>），这使得<code>TFRecordReader</code>能够记住<code>tfrecord</code>的位置，并且始终能返回下一个。而这就要求我们在使用之前，必须初始化整个graph，这里我们使用了函数<code>tf.initialize_all_variables()</code>来进行初始化。</p>
+<p>第二，tensorflow中的队列和普通的队列差不多，不过它里面的<code>operation</code>和<code>tensor</code>都是符号型的（<code>symbolic</code>），在调用<code>sess.run()</code>时才执行。</p>
+<p> 第三， <code>TFRecordReader</code>会一直弹出队列中文件的名字，直到队列为空。</p>
+<hr>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol>
+<li>生成tfrecord文件</li>
+<li>定义<code>record reader</code>解析tfrecord文件</li>
+<li>构造一个批生成器（<code>batcher</code>）</li>
+<li>构建其他的操作</li>
+<li>初始化所有的操作</li>
+<li>启动<code>QueueRunner</code></li>
+</ol>
+<p><strong>例子代码请戳我的<a href="https://github.com/ycszen/tf_lab/blob/master/reading_data/example_tfrecords.py" target="_blank" rel="external">github</a>，如果觉得对你有帮助的话可以加个星哦。</strong></p>
 
       
     </div>
@@ -356,22 +416,26 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/技术笔记/" rel="tag">#技术笔记</a>
+          
+            <a href="/tags/TensorFlow/" rel="tag">#TensorFlow</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/08/12/皮囊下的我/" rel="next" title="皮囊下的我">
-                <i class="fa fa-chevron-left"></i> 皮囊下的我
+              <a href="/2016/08/12/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/17/TensorFlow高效读取数据/" rel="prev" title="TensorFlow高效读取数据">
-                TensorFlow高效读取数据 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -397,8 +461,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/08/12/hello-world/"
-           data-title="Hello World" data-url="http://ycszen.github.io/2016/08/12/hello-world/">
+      <div class="ds-thread" data-thread-key="2016/08/17/TensorFlow高效读取数据/"
+           data-title="TensorFlow高效读取数据" data-url="http://ycszen.github.io/2016/08/17/TensorFlow高效读取数据/">
       </div>
     
   </div>
@@ -518,7 +582,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TFRecords"><span class="nav-number">2.</span> <span class="nav-text">TFRecords</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#生成TFRecords文件"><span class="nav-number">3.</span> <span class="nav-text">生成TFRecords文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用队列读取"><span class="nav-number">4.</span> <span class="nav-text">使用队列读取</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
             
           </div>
         </section>
