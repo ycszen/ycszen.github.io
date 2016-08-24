@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="技术笔记,深度学习理论,深度学习," />
 
 
 
@@ -84,15 +84,34 @@
 
 
 
-<meta name="description" content="万物皆虚，万物皆允">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ycszen-物语">
-<meta property="og:url" content="http://ycszen.github.io/tags/皮囊/index.html">
+<meta name="description" content="前言
+ 本文仅对一些常见的优化方法进行直观介绍和简单的比较，各种优化方法的详细内容及公式只好去认真啃论文了，在此我就不赘述了。
+
+SGD
+ 此处的SGD指mini-batch gradient descent，关于batch gradient descent, stochastic gradient descent, 以及 mini-batch gradient descent的具体区别就不细说">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SGD，Adagrad，Adadelta，Adam等优化方法总结和比较">
+<meta property="og:url" content="http://ycszen.github.io/2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/index.html">
 <meta property="og:site_name" content="Ycszen-物语">
-<meta property="og:description" content="万物皆虚，万物皆允">
+<meta property="og:description" content="前言
+ 本文仅对一些常见的优化方法进行直观介绍和简单的比较，各种优化方法的详细内容及公式只好去认真啃论文了，在此我就不赘述了。
+
+SGD
+ 此处的SGD指mini-batch gradient descent，关于batch gradient descent, stochastic gradient descent, 以及 mini-batch gradient descent的具体区别就不细说">
+<meta property="og:image" content="http://img.blog.csdn.net/20160824165643384">
+<meta property="og:image" content="http://img.blog.csdn.net/20160824165706664">
+<meta property="og:image" content="http://img.blog.csdn.net/20160824170803993">
+<meta property="og:image" content="http://img.blog.csdn.net/20160824161755284">
+<meta property="og:image" content="http://img.blog.csdn.net/20160824161815758">
+<meta property="og:updated_time" content="2016-08-24T10:37:26.599Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ycszen-物语">
-<meta name="twitter:description" content="万物皆虚，万物皆允">
+<meta name="twitter:title" content="SGD，Adagrad，Adadelta，Adam等优化方法总结和比较">
+<meta name="twitter:description" content="前言
+ 本文仅对一些常见的优化方法进行直观介绍和简单的比较，各种优化方法的详细内容及公式只好去认真啃论文了，在此我就不赘述了。
+
+SGD
+ 此处的SGD指mini-batch gradient descent，关于batch gradient descent, stochastic gradient descent, 以及 mini-batch gradient descent的具体区别就不细说">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20160824165643384">
 
 
 
@@ -113,9 +132,9 @@
 
 
 
-  <link rel="canonical" href="http://ycszen.github.io/tags/皮囊/"/>
+  <link rel="canonical" href="http://ycszen.github.io/2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/"/>
 
-  <title> 标签: 皮囊 | Ycszen-物语 </title>
+  <title> SGD，Adagrad，Adadelta，Adam等优化方法总结和比较 | Ycszen-物语 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,7 +155,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -245,46 +264,201 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        皮囊
-        <small>标签</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                SGD，Adagrad，Adadelta，Adam等优化方法总结和比较
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-08-24T18:21:45+08:00" content="2016-08-24">
+              2016-08-24
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">技术笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/" class="leancloud_visitors" data-flag-title="SGD，Adagrad，Adadelta，Adam等优化方法总结和比较">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1></blockquote>
+<p> 本文仅对一些常见的优化方法进行直观介绍和简单的比较，各种优化方法的详细内容及公式只好去认真啃论文了，在此我就不赘述了。</p>
+<blockquote>
+<h1 id="SGD"><a href="#SGD" class="headerlink" title="SGD"></a>SGD</h1></blockquote>
+<p> 此处的SGD指mini-batch gradient descent，关于batch gradient descent, stochastic gradient descent, 以及 mini-batch gradient descent的具体区别就不细说了。现在的SGD一般都指mini-batch gradient descent。<br> SGD就是每一次迭代计算梯度，然后对参数进行更新，是最常见的优化方法了。<br> 此处主要说下SGD的缺点：（正因为有这些缺点才让这么多大神发展出了后续的各种算法）</p>
+<ol>
+<li>选择合适的learning rate比较困难</li>
+<li>对所有的参数更新使用同样的learning rate。对于稀疏数据或者特征，有时我们可能想更新快一些对于不经常出现的特征，对于常出现的特征更新慢一些，这时候SGD就不太能满足要求了</li>
+<li>SGD容易收敛到局部最优，并且容易被困在鞍点</li>
+</ol>
+<blockquote>
+<h1 id="Momentum"><a href="#Momentum" class="headerlink" title="Momentum"></a>Momentum</h1></blockquote>
+<p> momentum是模拟物理里动量的概念。它在相关方向加速SGD，抑制振荡，从而加快收敛<br> 在梯度指向同一方向的维度，momentum项增加;<br> 在梯度改变方向的维度，momentum项减少更新</p>
+<p> <img src="http://img.blog.csdn.net/20160824165643384" alt="不加momentum项的SGD"><br> Image1:不加momentum项的SGD</p>
+<p> <img src="http://img.blog.csdn.net/20160824165706664" alt="带momentum项的SGD"><br> Image2:带momentum项的SGD</p>
+<blockquote>
+<h1 id="Nesterov"><a href="#Nesterov" class="headerlink" title="Nesterov"></a>Nesterov</h1></blockquote>
+<p>nesterov项在梯度更新时做一个校正，避免前进太快，同时提高灵敏度</p>
+<p><img src="http://img.blog.csdn.net/20160824170803993" alt="这里写图片描述"><br>Image3</p>
+<p> momentum首先计算一个梯度(短的蓝色向量)，然后在加速更新梯度的方向进行一个大的跳跃(长的蓝色向量)，nesterov项首先在之前加速的梯度方向进行一个大的跳跃(棕色向量)，计算梯度然后进行校正(绿色梯向量)</p>
+<p> 其实，momentum项和nesterov项都是为了使梯度更新更加灵活，有不同情况有针对性。但是，人工设置一些学习率总还是有些生硬，接下来介绍几种自适应学习率的方法</p>
+<blockquote>
+<h1 id="Adagrad"><a href="#Adagrad" class="headerlink" title="Adagrad"></a>Adagrad</h1></blockquote>
+<p> 此方法能对不常见的参数进行较大的更新，对于常见参数更新较小，不用手动调节学习率<br> 缺点：<br>     因为公式中分母上会累加梯度平方，这样在训练中持续增大的话，会使学习率非常小，甚至趋近无穷小</p>
+<blockquote>
+<h1 id="Adadelta"><a href="#Adadelta" class="headerlink" title="Adadelta"></a>Adadelta</h1></blockquote>
+<p>Adadelta是对Adagrad的扩展。<br>Adagrad会累加之前所有的梯度平方，而Adadelta只累加固定大小的项，并且也不直接存储这些项，仅仅是计算对应的平均值。<br>Adadelta甚至不用设置默认值。</p>
+<blockquote>
+<h1 id="RMSprop"><a href="#RMSprop" class="headerlink" title="RMSprop"></a>RMSprop</h1></blockquote>
+<p>RMSprop类似于Adadelta</p>
+<blockquote>
+<h1 id="Adam"><a href="#Adam" class="headerlink" title="Adam"></a>Adam</h1></blockquote>
+<p>Adam(Adaptive Moment Estimation)加上了bias校正和momentum，在优化末期，梯度更稀疏时，它比RMSprop稍微好点</p>
+<blockquote>
+<h1 id="经验之谈"><a href="#经验之谈" class="headerlink" title="经验之谈"></a>经验之谈</h1></blockquote>
+<p> 对于稀疏数据，尽量使用学习率可自适应的优化方法，不用手动调节，而且最好采用默认值<br> SGD通常训练时间更长，容易陷入鞍点，但是在好的初始化和学习率调度方案的情况下，结果更可靠<br> 如果在意更快的收敛，并且需要训练较深较复杂的网络时，推荐使用学习率自适应的优化方法。<br> Adadelta，RMSprop，Adam是比较相近的算法，在相似的情况下表现差不多。</p>
+<p> 最后展示两张可厉害的图，一切尽在图中啊，上面的都没啥用了… …</p>
+<p><img src="http://img.blog.csdn.net/20160824161755284" alt="损失平面等高线"><br>Image4:损失平面等高线</p>
+<p><img src="http://img.blog.csdn.net/20160824161815758" alt="在鞍点处的比较"><br>Image5:在鞍点处的比较</p>
+<p><a href="http://sebastianruder.com/optimizing-gradient-descent/" target="_blank" rel="external">原文</a></p>
 
-      <h1 class="post-title">
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2016/08/12/皮囊下的我/" itemprop="url">
-              
-                <span itemprop="name">皮囊下的我</span>
-              
-            </a>
+
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-12T14:44:36+08:00"
-              content="2016-08-12" >
-          08-12
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/技术笔记/" rel="tag">#技术笔记</a>
+          
+            <a href="/tags/深度学习理论/" rel="tag">#深度学习理论</a>
+          
+            <a href="/tags/深度学习/" rel="tag">#深度学习</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/17/TensorFlow高效读取数据/" rel="next" title="TensorFlow高效读取数据">
+                <i class="fa fa-chevron-left"></i> TensorFlow高效读取数据
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </div>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -292,6 +466,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/"
+           data-title="SGD，Adagrad，Adadelta，Adam等优化方法总结和比较" data-url="http://ycszen.github.io/2016/08/24/SGD，Adagrad，Adadelta，Adam等优化方法总结和比较/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -311,8 +493,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/imgs/header.jpg"
@@ -323,7 +514,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -340,7 +531,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -391,6 +582,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SGD"><span class="nav-number">2.</span> <span class="nav-text">SGD</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Momentum"><span class="nav-number">3.</span> <span class="nav-text">Momentum</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Nesterov"><span class="nav-number">4.</span> <span class="nav-text">Nesterov</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Adagrad"><span class="nav-number">5.</span> <span class="nav-text">Adagrad</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Adadelta"><span class="nav-number">6.</span> <span class="nav-text">Adadelta</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#RMSprop"><span class="nav-number">7.</span> <span class="nav-text">RMSprop</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Adam"><span class="nav-number">8.</span> <span class="nav-text">Adam</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#经验之谈"><span class="nav-number">9.</span> <span class="nav-text">经验之谈</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -487,6 +689,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
