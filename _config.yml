@@ -27,7 +27,6 @@ highlighter: rouge
 
 # Social media link for the site
 social:
-#   twitter:    Hexiang_Hu
   github:     ycszen
   zhihu:      yu-chang-qian/posts
 
@@ -37,6 +36,9 @@ link:
    <a href='http://www.zemingli.com/'>黎泽明(Li Zeming)</a>
    <a href='http://wangjingbo.top/'>王靖博(Wang Jingbo)</a><br>
    <a href='https://www.sshao.com/'>邵帅(Shao Shuai)</a>"
+
+theme:
+  canvas_nest: true
 
 # google_analytics_token: "UA-60071442-1"
 # google_tags_token: "GTM-K5ZTMW"
