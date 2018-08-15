@@ -1,0 +1,304 @@
+- title: 'Learning a Discriminative Feature Network for Semantic Segmentation'
+  date:  'Apr. 2018'
+  imgurl: '/images/projects/2018/dfn.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Changqian Yu</strong>
+      url:  'http://changqianyu.me'
+    - name: Jingbo Wang
+      url:  ''
+    - name: Chao Peng
+      url:  'http://www.pengchao.org/'
+    - name: Changxin Gao
+      url:  'https://sites.google.com/site/changxingao/'
+    - name: Gang Yu
+      url:  'http://www.skicyyu.org/'
+    - name: Nong Sang 
+      url:  'http://auto.hust.edu.cn/info/1154/3414.htm'
+  publisher:  'CVPR 2018'
+  status:   ''
+  place:    'in Salt Lake City, Utah'
+  desc: 'Most existing methods of semantic segmentation still suffer from two aspects of challenges: intra-class inconsistency and inter-class indistinction. To tackle these two problems, we propose a Discriminative Feature Network (DFN), which contains two sub-networks: Smooth Network and Border Network. Specifically, to handle the intra-class inconsistency problem, we specially design a Smooth Network with Channel Attention Block and global average pooling to select the more discriminative features. Furthermore, we propose a Border Network to make the bilateral features of boundary distinguishable with deep semantic boundary supervision. Based on our proposed DFN, we achieve state-of-the-art performance 86.2% mean IOU on PASCAL VOC 2012 and 80.3% mean IOU on Cityscapes dataset.'
+  tags:
+    - name: 'arXiv'
+      url:  'https://arxiv.org/abs/1804.09337'
+    - name: 'poster'
+      url: '/source/pdf/poster/dfn_cvpr18_poster.pdf'
+    - name: 'bib'
+      url: '/source/bib/yu_cvpr18_dfn.bib'
+
+- title: 'BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'
+  date:  'Feb. 2018'
+  imgurl: '/images/projects/2018/bisenet.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Changqian Yu</strong>
+      url:  'http://changqianyu.me'
+      equal_contribution: true
+    - name: Jingbo Wang
+      url:  ''
+      equal_contribution: true
+    - name: Chao Peng
+      url:  'http://www.pengchao.org/'
+    - name: Changxin Gao
+      url:  'https://sites.google.com/site/changxingao/'
+    - name: Gang Yu
+      url:  'http://www.skicyyu.org/'
+    - name: Nong Sang 
+      url:  'http://auto.hust.edu.cn/info/1154/3414.htm'
+  publisher:  'ECCV 2018'
+  status:   ''
+  place:    'in Munich, Germany'
+  desc: 'Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain sufficient receptive field. On top of the two paths, we introduce a new Feature Fusion Module to combine features efficiently. The proposed architecture makes a right balance between the speed and segmentation performance on Cityscapes, CamVid, and COCO-Stuff datasets. Specifically, for a 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP card, which is significantly faster than the existing methods with comparable performance.'
+  tags:
+    - name: 'arXiv'
+      url:  'https://arxiv.org/abs/1808.00897'
+    - name: 'bib'
+      url: '/source/bib/yu_eccv18_bisenet.bib'
+    # - name: 'pdf'
+    #   url:  '/pdf/hu2018learning.pdf'
+    # - name: 'bib'
+    #   url:  '/bib/hu2018learning.bib'
+
+# - title: 'Cross-Dataset Adaptation for Visual Question Answering'
+#   date:  'Feb. 2018'
+#   imgurl: '/images/projects/2018/hexiang2018adaptation.png'
+#   imgprop: 'frame'
+#   selected: true
+#   authors:
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#       equal_contribution: true
+#     - name: W.-L. Chao
+#       url:  'http://www-scf.usc.edu/~weilunc/index.html'
+#       equal_contribution: true
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#   publisher:  'CVPR 2018'
+#   status:   ''
+#   place:    'in Salt Lake City, Utah'
+#   desc: 'We investigate the problem of cross-dataset adaptation for visual question answering. <!--more--> Our goal is to train a Visual QA model on a source dataset  but apply it to another target one. Analogous to domain adaptation for visual recognition, this setting is appealing when the target dataset does not have a sufficient amount of labeled data to learn an "in-domain" model.'
+#   tags:
+#     # - name: 'arXiv'
+#     #   url:  ''
+#     - name: 'pdf'
+#       url:  '/pdf/chao2018cross.pdf'
+#     - name: 'bib'
+#       url:  '/bib/chao2018cross.bib'
+# - title: 'Multi-Task Learning for Sequence Tagging: An Empirical Study'
+#   date:  'May. 2018'
+#   imgurl: '/images/projects/2018/beer2018mtl.png'
+#   imgprop: 'frame'
+#   selected: true
+#   authors:
+#     - name: Soravit (Beer) Changpinyo
+#       url:  'http://www-scf.usc.edu/~schangpi/index.html'
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#   publisher:  'Coling 2018'
+#   status:   ''
+#   place:    'in Santa Fe, New-Mexico'
+#   desc: 'We study three general multi-task learning (MTL) approaches on 11 sequence tagging tasks. Our extensive empirical results show that in about 50\% of cases, jointly learning all 11 tasks improves either learning tasks independently or pairwise learning of tasks. We also show that pairwise MTL can inform us what tasks can benefit others or what tasks can be benefited if they are learned jointly. We additionally identify tasks that can always benefit others as well as tasks that can always be harmed by others.'
+#   tags:
+#     # - name: 'arXiv'
+#     #   url:  ''
+#     - name: 'pdf (coming soon)'
+#       url:  ''
+# - title: 'Compressed Video Action Recognition'
+#   date:  'Jan. 2018'
+#   imgurl: '/images/projects/2018/cywu2018coviar.png'
+#   imgprop: 'frame'
+#   selected: true
+#   authors:
+#     - name: 'C.-Y. Chao'
+#       url:  'http://www.cs.utexas.edu/~cywu/'
+#     - name: 'M. Zaheer'
+#       url:  'http://manzil.ml/'
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#     - name: 'A. Smola'
+#       url:  'https://alex.smola.org/'
+#     - name: 'P. Krähenbühl'
+#       url:  'http://www.philkr.net/'
+#   publisher:  'CVPR 2018'
+#   status:   '(Spotlight)'
+#   place:    'in Salt Lake City, Utah'
+#   desc: 'Training robust deep video representations has proven to be much more challenging than learning deep image representations and consequently hampered tasks like video action recognition. Motivated by the fact that the superfluous information can be reduced by up to two orders of magnitude with video compression techniques, in this work, we propose to train a deep network directly on the compressed video, devoid of redundancy'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'https://arxiv.org/abs/1712.00636'
+#     - name: 'details'
+#       url:  'https://www.cs.utexas.edu/~cywu/projects/coviar/'
+#     - name: 'code'
+#       url:  'https://github.com/chaoyuaw/pytorch-coviar'
+# - title: 'Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering Datasets'
+#   date:  'April. 2017'
+#   imgurl: '/images/projects/2017/hexiang2017negative.png'
+#   imgprop: 'frame'
+#   selected: true
+#   authors:
+#     - name: W.-L. Chao
+#       url:  'http://www-scf.usc.edu/~weilunc/index.html'
+#       equal_contribution: true
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#       equal_contribution: true
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#   publisher:  'NAACL-HLT 2018'
+#   status:   '(Oral)'
+#   place:    'in New Orleans, Louisiana'
+#   desc: 'We show the design of the decoy answers has a significant impact on how and what the learning models learn from the datasets. In particular, the resulting learner can ignore the visual information, the question, or the both while still doing well on the task. <!--more--> Inspired by this, we propose automatic procedures of how to remedy such design deficiencies.'
+#   tags:
+#     - name: 'pdf'
+#       url:  '/pdf/hexiang2017negative.pdf'
+#     - name: 'project'
+#       url:  'http://www.teds.usc.edu/website_vqa'
+#     - name: 'poster'
+#       url:  '/pdf/negative2017cvprw.pdf'
+#     - name: 'slides'
+#       url:  '/pdf/negative2018naacl.pdf'
+#     - name: 'bib'
+#       url:  '/bib/chao2017being.bib'
+# - title: 'LabelBank: Revisiting Global Perspectives for Semantic Segmentation'
+#   date:  'March. 2017'
+#   imgurl: '/images/projects/2017/hexiang2017labelbank.png'
+#   imgprop: 'frame'
+#   selected: false
+#   authors:
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#       equal_contribution: true
+#     - name: Z. Deng
+#       url:  'http://www.sfu.ca/~zhiweid'
+#       equal_contribution: true
+#     - name: G.-T. Zhou
+#       url:  'http://www.cs.sfu.ca/~gza11/personal/'
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#     - name: G. Mori
+#       url:  'https://www.cs.sfu.ca/~mori/'
+#   publisher:  'ArXiv 2017'
+#   status:   '(Tech Report)'
+#   place:    ''
+#   desc: 'We show the ability of our framework to improve semantic segmentation performance in a variety of settings. We learn models for extracting a holistic LabelBank from visual cues, attributes, and/or textual descriptions. We demonstrate improvements in semantic segmentation accuracy on standard datasets across a range of state-of-the-art segmentation architectures and holistic inference approaches.'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'https://arxiv.org/abs/1703.09891'
+#     - name: 'pdf'
+#       url:  '/pdf/hexiang2017labelbank.pdf'
+# - title: 'FastMask: Segment Multi-scale Object Candidates in One Shot'
+#   date:  'Nov. 2016'
+#   imgurl: '/images/projects/2016/hexiang2016fastmask.png'
+#   imgprop: 'frame'
+#   selected: true
+#   authors:
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#       equal_contribution: true
+#     - name: S. Lan
+#       url:  ''
+#       equal_contribution: true
+#     - name: Y. Jiang
+#       url:  ''
+#     - name: Z. Cao
+#       url:  ''
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#   publisher:  'CVPR 2017'
+#   status:   '(Spotlight)'
+#   place:    'in Honolulu, Hawaii'
+#   desc: 'We present a novel segment proposal framework, namely FastMask, which takes advantage of the hierarchical structure in deep convolutional neural network to segment multi-scale objects in one shot. Through leveraging feature pyramid and sliding-window region attention, we made instance proposal not only fast but more accurate.'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'https://arxiv.org/abs/1612.08843'
+#     - name: 'pdf'
+#       url:  '/pdf/hexiang2016fastmask.pdf'
+#     - name: 'code'
+#       url:  'https://github.com/voidrank/FastMask'
+# - title: 'Recalling Holistic Information for Semantic Segmentation'
+#   date:  'Nov. 2016'
+#   imgurl: '/images/projects/2016/hexiang2016holistic.png'
+#   selected: false
+#   authors:
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#       equal_contribution: true
+#     - name: Z. Deng
+#       url:  'http://www.sfu.ca/~zhiweid'
+#       equal_contribution: true
+#     - name: G.-T. Zhou
+#       url:  'http://www.cs.sfu.ca/~gza11/personal/'
+#     - name: F. Sha
+#       url:  'http://www-bcf.usc.edu/~feisha/'
+#     - name: G. Mori
+#       url:  'https://www.cs.sfu.ca/~mori/'
+#   publisher: 'ArXiv 2016'
+#   status:    '(Tech. Report)'
+#   place:     ''
+#   desc: 'We advocate that high-recall holistic inference of image concepts provides valuable information for detailed pixel labeling. A two-stream neural network architecture is proposed to facilitate information flow from holistic information to local pixels.'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'https://arxiv.org/abs/1611.08061'
+#     - name: 'pdf'
+#       url:  'https://arxiv.org/pdf/1611.08061v1.pdf'
+#     # - name: 'project'
+#     #   url:  '/projects/holistic'
+# - title: 'Learning Structured Inference Neural Networks with Label Relations'
+#   date:  'Nov. 2015'
+#   imgurl: '/images/projects/2015/hexiangh2015sinn.jpg'
+#   selected: true
+#   authors:
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#     - name: G.-T. Zhou
+#       url:  'http://www.cs.sfu.ca/~gza11/personal/'
+#     - name: Z. Deng
+#       url:  'http://www.sfu.ca/~zhiweid'
+#     - name: Z. Liao
+#       url:  'http://web.engr.illinois.edu/~liao17/'
+#     - name: G. Mori
+#       url:  'https://www.cs.sfu.ca/~mori/'
+#   publisher:  'CVPR 2016'
+#   status:  ''
+#   place:   'in Las Vegas, Nevada'
+#   desc: 'We propose a generic structured model that leverages diverse label relations to improve image classification performance. It employs a novel stacked label prediction neural network, capturing both inter-level and intra-level label semantics. The design of this framework naurally extends to leverage partial observations in the label space to inference the rest label space.'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'http://arxiv.org/abs/1511.05616'
+#     - name: 'pdf'
+#       url:  '/pdf/hexiang2015sinn.pdf'
+#     - name: 'project'
+#       url:  '/projects/sinn'
+#     - name: 'bib'
+#       url:  '/bib/hu2016learning.bib'
+# - title: 'Structure Inference Machines: Recurrent Neural Networks for Analyzing Relations in Group Activity Recognition'
+#   date:  'Nov. 2015'
+#   imgurl: '/images/projects/2015/zhiweid2015bprnn.jpg'
+#   selected: false
+#   authors:
+#     - name: Z. Deng
+#       url:  'http://www.sfu.ca/~zhiweid'
+#     - name: A. Vahdat
+#       url:  ''
+#     - name: <strong>H. Hu</strong>
+#       url:  ''
+#     - name: G. Mori
+#       url:  'https://www.cs.sfu.ca/~mori/'
+#   publisher:  'CVPR 2016'
+#   status:   ''
+#   place:   'in Las Vegas, Nevada'
+#   desc: 'We propose a method to integrate graphical models and deep neural networks into a joint framework with a sequential prediction approximation, modeled by recurrent neural network. This framework simultaneously predicts the underline structure of interactions between people and inferences the corresponding labels for individual and group.'
+#   tags:
+#     - name: 'arXiv'
+#       url:  'http://arxiv.org/abs/1511.04196'
+#     - name: 'pdf'
+#       url:  'http://arxiv.org/pdf/1511.04196.pdf'
+#     - name: 'site'
+#       url:  'http://www.sfu.ca/~zhiweid/projects/SIF_project.html'
+#     - name: 'bib'
+#       url:  '/bib/deng2016structure.bib'

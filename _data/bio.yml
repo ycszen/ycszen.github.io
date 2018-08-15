@@ -1,0 +1,22 @@
+name:       "Changqian Yu"
+title:      "PH.D. Student @ HUST"
+email:      "changqian_yu@hust.edu.cn"
+head_pic:   /images/self-portrait/ycq.jpg
+resume:     "/pdf/resume/yuchangqian_cv.pdf"
+normal:
+  date:     "Jun. 2018"
+  title:    ""
+  content:  "<strong>Changqian Yu</strong> is a second-year graduate student majoring in Computer Vision at
+          <strong>Huazhong University of Science and Technology</strong>. He is pursuing his
+          Master Degree under the supervision of <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
+          and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a> (2016-2019). 
+          He works as a research intern at <strong>Megvii (Face++) Inc.</strong> mentored by
+          <a href='http://www.skicyyu.org/'>Dr. Gang Yu</a> and supervised by <a href='http://www.jiansun.org/'>Dr. Jian Sun</a>. 
+          His research interests focus on the <strong>Computer Vision</strong> and <strong>Artificial Intelligence</strong>,
+          specifically on the topic of <strong>Segmentation</strong>.<br>"
+  news:     "<h2>News</h2>
+          <strong>[Jul. 2018]</strong> One paper accepted to <a href='https://eccv2018.org/'>ECCV18</a> in in München, Germany!<br>
+          <strong>[Apr. 2018]</strong> I have presented my poster on the <a href='http://ice.dlut.edu.cn/valse2018/index.html'>Vision and Learning Seminar(VALSE 2018)</a> in Dalian, LiaoNing Province, China. <br>
+          <strong>[Feb. 2018]</strong> Our paper <a href='https://arxiv.org/abs/1804.09337'>DFN</a> is accepted to <a href='http://cvpr2018.thecvf.com/'>CVPR 2018</a> in Salt Lake City, Ultah State! <br>
+          <strong>[Jul. 2017]</strong> I joined Megvii (Face++) as a Research Intern. During the time, I mainly researched on the topic of <strong>Segmentation</strong>. <br>"
+        

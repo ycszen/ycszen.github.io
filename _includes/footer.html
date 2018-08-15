@@ -1,0 +1,54 @@
+{% if page.comments == True %}
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--       <h2 class="footer-heading">
+      <a class="page-link" href="{{ '/about' | prepend: site.url }}">
+      {{ site.title | prepend: 'About ' }}
+    </a></h2> -->
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-half">
+        <h2 class="footer-heading">About Changqian You</h2>
+      <div class="footer-col  footer-col-half">
+
+        <ul class="contact-list">
+          <li>{{ site.data.bio.name }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.data.bio.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-half">
+        {% include color-social.html %}
+      </div>
+    </div>
+
+      
+      <div class="footer-col  footer-col-half">
+        <h2 class="footer-heading">Links</h2>
+<!--       <h2 class="footer-heading">Links</h2> -->
+        <p class="text">{{site.link}} </p>
+      </div>
+
+  </div>
+</div>
+
+<div class="wrapper">
+  <a href="https://www.easycounter.com/">
+    <img src="https://www.easycounter.com/counter.php?ycszen"
+      border="0" alt="Unique Visitors"></a>
+  <i>unique visitors since Mar. 2018</i><br>
+  <i>Last update: Agu. 2018</i>
+</div>
+
+
+</footer>
+{% else%}
+<footer class="site-footer">
+    <div class="wrapper">
+        <h2 class="footer-heading"> {{ site.title }}</h2>
+    </div>
+</footer>
+{% endif %}

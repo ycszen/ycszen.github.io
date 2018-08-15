@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include tags.html %}
+    {% include header.html %}
+    {% include cover.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include float-buttons.html %}
+  </body>
+  {% include analytics.html %}
+</html>

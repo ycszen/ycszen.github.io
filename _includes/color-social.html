@@ -1,0 +1,35 @@
+{% if site.social.twitter %}
+<a href="{{ site.social.twitter | prepend: "https://twitter.com/" }}">
+  <img src="/images/icon/color-twitter.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.linkedin %}
+<a href="{{ site.social.linkedin | prepend: "https://linkedin.com/in/{{" }}">
+  <img src="/images/icon/color-linkedin.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.github %}
+<a href="{{ site.social.github | prepend: "https://github.com/" }}">
+  <img src="/images/icon/color-github.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.zhihu %}
+<a href="{{ site.social.zhihu | prepend: 'https://www.zhihu.com/people/' }}">
+  <img src="/images/icon/color-zhihu.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.facebook %}
+<a href="{{ site.social.facebook | prepend: "https://facebook.com/"}}">
+  <img src="/images/icon/color-facebook.png" class="social-icon">
+</a>
+{% endif %}
+
+{% if site.social.rss %}
+<a href="{{ site.social.rss | prepend: site.baseurl }}">
+  <img src="/images/icon/color-rss.png" class="social-icon">
+</a>
+{% endif %}

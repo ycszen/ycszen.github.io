@@ -1,0 +1,56 @@
+---
+layout: page
+description: "Full publication list for Changqian"
+noindex:  true
+---
+
+<div id="publications" class="publications">
+  <h1 class="lg-heading text-center">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Full Publication List
+  </h1>
+
+  <div class="pub-navigator"></div>
+
+  {% for publication in site.data.publications %}
+  <div class="pub">
+    <div class="pub-left">
+      <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
+    </div>
+    <div class="pub-right">
+      <div class="title">
+        {{ publication.title }}
+      </div>
+      <div class="authors">
+        {% for author in publication.authors %}
+        <a class="author" href="{{ author.url }}">
+          {{ author.name | prepend: ' '}}
+          {% if author.equal_contribution %} * {% endif %}
+        </a>
+        {% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      </div>
+      <div class="desc">
+        <p>{{ publication.desc }}</p>
+      </div>
+      <div class="publish">
+        <span class="publisher">{{ publication.publisher }}</span>
+        <span class="status">{{ publication.status }}</span>
+        <span class="place">{{ publication.place }}</span>
+      </div>
+      <div class="tags">
+        {% for tag in publication.tags %}
+        [<a class="tag" href="{{tag.url}}"> <strong> {{ tag.name }} </strong> </a>]
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="button">
+    <h1 class="sm-heading text-center"><a href="{{ site.url }}">
+      <i class="fa fa-arrow-circle-left"></i> Back
+    </a></h1>
+  </div>
+
+</div>

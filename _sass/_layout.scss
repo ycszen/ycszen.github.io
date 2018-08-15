@@ -1,0 +1,232 @@
+/**
+* Site header
+*/
+.site-header {
+  border-top:     3px solid $primary-color;
+  border-bottom:  1px solid $primary-color;
+  background-color: $primary-color;
+  min-height:     40px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  color:            $yellow-color;
+  font-size:        20px;
+  font-weight:      400;
+  font-family:      'Roboto',sans-serif, Helvetica;
+  line-height:      40px;
+  letter-spacing:   -1px;
+  margin-bottom:    0;
+  float: left;
+
+  &,
+  &:visited {
+      color:        $yellow-color;
+  }
+}
+
+.site-nav {
+  float:          right;
+  line-height:    40px;
+
+  z-index:        3;
+
+  .menu-icon {
+      display: none;
+  }
+
+  .page-link {
+      font-size:    16px;
+      font-weight:  300;
+      color:        $yellow-color;
+      line-height:  $base-line-height;
+
+      // Gaps between nav items, but not on the first one
+      &:not(:first-child) {
+          margin-left: 20px;
+      }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    background-color: $primary-color;
+    border: 1px solid $yellow-color;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 16px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 20px;
+
+        path {
+            fill: $yellow-color;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      font-weight: 400;
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+}
+
+
+/**
+* Site footer
+*/
+.site-footer {
+  border-top:   1px solid $primary-color-dark;
+  padding:      $spacing-unit 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style:   none;
+  margin-left:  0;
+}
+
+.footer-col-wrapper {
+  font-size:    15px;
+  color:        $grey-color;
+  margin-left:  -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom:  $spacing-unit / 2;
+  padding-left:   $spacing-unit / 2;
+}
+
+.footer-col-half {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-1 {
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+      width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+      width:         calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+
+
+/**
+* Page content
+*/
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sm-heading {
+  font-size:    20px;
+  font-color:   $primary-color-dark;
+  font-weight:  300;
+}
+
+.md-heading {
+  font-size:    24px;
+  font-color:   $primary-color-dark;
+  font-weight:  400;
+}
+
+.lg-heading {
+  font-size:    30px;
+  font-color:   $primary-color-dark;
+  font-weight:  600;
+}
+
+
+.button {
+  padding:     10px;
+  margin-top:  25px;
+
+  a {
+    border: solid 1px darken($background-color, 10%);
+    border-radius: 2.0rem;
+    color: darken($background-color, 45%);
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 1.0rem;
+    text-decoration: none;
+  }
+  em {
+    border: solid 1px darken($background-color, 10%);
+    border-radius: 0.2rem;
+    color: darken($background-color, 45%);
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+  }
+}
+
+.button > .heading > a:hover {
+  color: lighten($background-color, 5%);
+  background-color: $grey-color-dark;
+  border: solid 1px $grey-color-dark;
+}
