@@ -1,3 +1,33 @@
+- title: 'BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'
+  date:  'Feb. 2018'
+  imgurl: '/images/projects/2018/bisenet.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Changqian Yu</strong>
+      url:  'http://changqianyu.me'
+      equal_contribution: true
+    - name: Jingbo Wang
+      url:  ''
+      equal_contribution: true
+    - name: Chao Peng
+      url:  'http://www.pengchao.org/'
+    - name: Changxin Gao
+      url:  'https://sites.google.com/site/changxingao/'
+    - name: Gang Yu
+      url:  'http://www.skicyyu.org/'
+    - name: Nong Sang 
+      url:  'http://auto.hust.edu.cn/info/1154/3414.htm'
+  publisher:  'ECCV 2018'
+  status:   ''
+  place:    'in Munich, Germany'
+  desc: 'Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain sufficient receptive field. On top of the two paths, we introduce a new Feature Fusion Module to combine features efficiently. The proposed architecture makes a right balance between the speed and segmentation performance on Cityscapes, CamVid, and COCO-Stuff datasets. Specifically, for a 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP card, which is significantly faster than the existing methods with comparable performance.'
+  tags:
+    - name: 'arXiv'
+      url:  'https://arxiv.org/abs/1808.00897'
+    - name: 'bib'
+      url: '/source/bib/yu_eccv18_bisenet.bib'
+      
 - title: 'Learning a Discriminative Feature Network for Semantic Segmentation'
   date:  'Apr. 2018'
   imgurl: '/images/projects/2018/dfn.png'
@@ -28,39 +58,6 @@
     - name: 'bib'
       url: '/source/bib/yu_cvpr18_dfn.bib'
 
-- title: 'BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'
-  date:  'Feb. 2018'
-  imgurl: '/images/projects/2018/bisenet.png'
-  imgprop: 'frame'
-  selected: true
-  authors:
-    - name: <strong>Changqian Yu</strong>
-      url:  'http://changqianyu.me'
-      equal_contribution: true
-    - name: Jingbo Wang
-      url:  ''
-      equal_contribution: true
-    - name: Chao Peng
-      url:  'http://www.pengchao.org/'
-    - name: Changxin Gao
-      url:  'https://sites.google.com/site/changxingao/'
-    - name: Gang Yu
-      url:  'http://www.skicyyu.org/'
-    - name: Nong Sang 
-      url:  'http://auto.hust.edu.cn/info/1154/3414.htm'
-  publisher:  'ECCV 2018'
-  status:   ''
-  place:    'in Munich, Germany'
-  desc: 'Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain sufficient receptive field. On top of the two paths, we introduce a new Feature Fusion Module to combine features efficiently. The proposed architecture makes a right balance between the speed and segmentation performance on Cityscapes, CamVid, and COCO-Stuff datasets. Specifically, for a 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP card, which is significantly faster than the existing methods with comparable performance.'
-  tags:
-    - name: 'arXiv'
-      url:  'https://arxiv.org/abs/1808.00897'
-    - name: 'bib'
-      url: '/source/bib/yu_eccv18_bisenet.bib'
-    # - name: 'pdf'
-    #   url:  '/pdf/hu2018learning.pdf'
-    # - name: 'bib'
-    #   url:  '/bib/hu2018learning.bib'
 
 # - title: 'Cross-Dataset Adaptation for Visual Question Answering'
 #   date:  'Feb. 2018'
