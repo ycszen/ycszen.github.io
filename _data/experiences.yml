@@ -2,14 +2,14 @@
   title: "PhD student @ HUST"
   desc:  "Deep Learning, Computer Vision"
   host:
-    name: "<a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a>"
+    name: "<a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a> and <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
     role: "Supervisor"
   brief: true
 - date:  "Summer 2017 - "
   title: "Research Intern @ Megvii Inc. (Face++)"
   desc:  "Semantic Segmentation"
   host:
-    name: "<a http://www.skicyyu.org/'>Dr. Gang Yu</a>"
+    name: "<a href='http://www.jiansun.org/'>Dr. Jian Sun</a> and <a http://www.skicyyu.org/'>Dr. Gang Yu</a>"
     role: "Mentor"
   brief: true
 - date:  "2016 - 2018"
