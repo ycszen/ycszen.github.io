@@ -1,11 +1,11 @@
-- date:  "2018 - "
+- date:  "2018 - present"
   title: "PhD student @ HUST"
   desc:  "Deep Learning, Computer Vision"
   host:
     name: "<a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a> and <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
     role: "Supervisor"
   brief: true
-- date:  "Summer 2017 - "
+- date:  "Summer 2017 - present"
   title: "Research Intern @ Megvii Inc. (Face++)"
   desc:  "Semantic Segmentation"
   host:
