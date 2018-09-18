@@ -27,6 +27,8 @@
       url:  'https://arxiv.org/abs/1808.00897'
     - name: 'bib'
       url: '/source/bib/yu_eccv18_bisenet.bib'
+    - name: 'ChinaNews(in Chinese)'
+      url: 'https://mp.weixin.qq.com/s/520WqCIs_kf3p1RAyqbEcg'
       
 - title: 'Learning a Discriminative Feature Network for Semantic Segmentation'
   date:  'Apr. 2018'
@@ -57,6 +59,8 @@
       url: '/source/pdf/poster/dfn_cvpr18_poster.pdf'
     - name: 'bib'
       url: '/source/bib/yu_cvpr18_dfn.bib'
+    - name: 'ChinaNews(in Chinese)'
+      url: 'https://mp.weixin.qq.com/s/4csAftUmJErdA4qn26mO3Q'
 
 
 # - title: 'Cross-Dataset Adaptation for Visual Question Answering'
