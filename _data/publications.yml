@@ -25,6 +25,8 @@
   tags:
     - name: 'arXiv'
       url:  'https://arxiv.org/abs/1808.00897'
+    - name: 'poster'
+      url:  'source/pdf/poster/bisenet_eccv18_poster.pdf'
     - name: 'bib'
       url: '/source/bib/yu_eccv18_bisenet.bib'
     - name: 'ChinaNews(in Chinese)'
