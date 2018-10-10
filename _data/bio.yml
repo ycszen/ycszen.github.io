@@ -25,5 +25,9 @@ normal:
   competitions: "<h2>Competitions</h2>
           <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of COCO 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
           <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of Mapillary 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>"
+  professional-activities: "<h2>Professional Activities</h2>
+          <li>Conference Reviewer: CVPR2019.</li>
+          <li>COCO & Mapillary Joint Workshop at ECCV2018, invited talk.</li>
+  "
 
         
