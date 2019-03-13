@@ -1,3 +1,31 @@
+- title: 'An End-to-End Network for Panoptic Segmentation'
+  date:  'Mar. 2018'
+  imgurl: '/images/projects/2019/oanet.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Huanyu Liu
+      url: ''
+    - name: Chao Peng
+      url:  'http://www.pengchao.org/'
+    - name: <strong>Changqian Yu</strong>
+      url:  'http://changqianyu.me'
+    - name: Jingbo Wang
+      url:  ''
+    - name: Xu Liu
+      url:  ''
+    - name: Gang Yu
+      url:  'http://www.skicyyu.org/'
+    - name: Wei Jiang 
+      url:  ''
+  publisher:  'CVPR 2019'
+  status:   ''
+  place:    'in Long Beach, California'
+  desc: 'Panoptic segmentation, which needs to assign a category label to each pixel and segment each object instance simultaneously, is a challenging topic. Traditionally, the existing approaches utilize two independent models without sharing features, which makes the pipeline inefficient to implement. In addition, a heuristic method is usually employed to merge the results. However, the overlapping relationship between object instances is difficult to determine without sufficient context information during the merging process. To address the problems, we propose a novel end-to-end network for panoptic segmentation, which can efficiently and effectively predict both the instance and stuff segmentation in a single network. Moreover, we introduce a novel spatial ranking module to deal with the occlusion problem between the predicted instances. Extensive experiments have been done to validate the performance of our proposed method and promising results have been achieved on the COCO Panoptic benchmark.'
+  tags:
+    - name: 'arXiv'
+      url:  'https://arxiv.org/pdf/1903.05027.pdf'
+
 - title: 'BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'
   date:  'Feb. 2018'
   imgurl: '/images/projects/2018/bisenet.png'
