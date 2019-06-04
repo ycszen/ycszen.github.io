@@ -1,3 +1,10 @@
+- date:  "June 2019 - September 2019"
+  title: "Visiting Student @ The University of Adelaide"
+  desc:  "Semantic Segmentation"
+  host:
+    name: "<a href='https://cs.adelaide.edu.au/~chhshen/'>Prof. Chunhua Shen</a>"
+    role: "Supervisor"
+  brief: true
 - date:  "2018 - present"
   title: "PH.D. student @ HUST"
   desc:  "Deep Learning, Computer Vision"
