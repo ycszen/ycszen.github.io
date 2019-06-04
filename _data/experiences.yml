@@ -6,7 +6,7 @@
     role: "Supervisor"
   brief: true
 - date:  "2018 - present"
-  title: "PH.D. student @ HUST"
+  title: "PH.D. Student @ HUST"
   desc:  "Deep Learning, Computer Vision"
   host:
     name: "<a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a> and <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
@@ -20,7 +20,7 @@
     role: "Mentor"
   brief: true
 - date:  "2016 - 2018"
-  title: "Master student @ HUST"
+  title: "Master Student @ HUST"
   desc:  "Deep Learning, Computer Vision"
   host:
     name: "<a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
