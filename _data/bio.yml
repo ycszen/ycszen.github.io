@@ -7,14 +7,21 @@ scholar:    "https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en"
 normal:
   date:     "Jun. 2018"
   title:    ""
-  content:  "<strong>Changqian Yu</strong> is a first-year PhD student majoring in Computer Vision at
-          <strong>Huazhong University of Science and Technology</strong>. He is pursuing his
-          PhD Degree under the supervision of <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
-          and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a> (2016-2021). 
-          He works as a research intern at <strong>Megvii (Face++) Inc.</strong> mentored by
-          <a href='http://www.skicyyu.org/'>Dr Gang Yu</a> and supervised by <a href='http://www.jiansun.org/'>Dr Jian Sun</a>. 
-          His research interests focus on <strong>Computer Vision</strong> and <strong>Artificial Intelligence</strong>,
-          specifically on the topic of <strong>Segmentation</strong>.<br>"
+  content:  "I am a first-year PH.D. student majoring in Computer Vision at 
+          <strong>Huazhong University of Science and Technology</strong>, supervised 
+          by <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
+          and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a>.
+          I received China National Scholarship in 2018. Before that I received 
+          my B.S. degree from Shandong University in 2016.<br>
+          I was a visiting student at <strong>Statistical Machine Learning Group</strong> 
+          of the University of Adelaide, supervised by
+          <a href='https://cs.adelaide.edu.au/~chhshen/'>Prof. Chunhua Shen</a>.
+          Before that, I was a research intern at <strong>Megvii (Face++) Inc.</strong> 
+          mentored by <a href='http://www.skicyyu.org/'>Dr Gang Yu</a> and 
+          supervised by <a href='http://www.jiansun.org/'>Dr Jian Sun</a>.<br>
+          My research interests focus on <strong>Computer Vision</strong> and 
+          <strong>Artificial Intelligence</strong>, specifically on the topic 
+          of <strong>Segmentation</strong>.<br>"
   news:     "<h2>News</h2>
           <strong>[Mar. 2019]</strong> Our paper <a href='https://arxiv.org/pdf/1903.05027.pdf'>OANet</a> is accepted to <a href='http://cvpr2019.thecvf.com/'>CVPR2019</a> in Long Beach, California! <br>
           <strong>[Jan. 2019]</strong> We have released the project <a href='https://github.com/ycszen/TorchSeg'>TorchSeg</a> which contains the source code of <a href='https://arxiv.org/abs/1804.09337'>DFN</a> and <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a>.</br>
