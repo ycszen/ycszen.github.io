@@ -11,22 +11,22 @@ normal:
           <strong>Huazhong University of Science and Technology</strong>, supervised 
           by <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
           and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a>.
-          I received China National Scholarship in 2018. Before that I received 
-          my B.S. degree from Shandong University in 2016.<br>
+          I received the China National Scholarship in 2018. Before that, I received 
+          my B.S. degree from Shandong University in 2016.<br><br>
 
-          I was a visiting student at <strong>Statistical Machine Learning Group</strong> 
+          I was a visiting student at the <strong>Statistical Machine Learning Group</strong> 
           of the <strong>University of Adelaide</strong>, supervised by
           <a href='https://cs.adelaide.edu.au/~chhshen/'>Prof. Chunhua Shen</a>.
           Before that, I was a research intern at <strong>Megvii (Face++) Inc.</strong> 
           mentored by <a href='http://www.skicyyu.org/'>Dr Gang Yu</a> and 
-          supervised by <a href='http://www.jiansun.org/'>Dr Jian Sun</a>.<br>
-          
+          supervised by <a href='http://www.jiansun.org/'>Dr Jian Sun</a>.<br><br>
+
           My research interests focus on <strong>Computer Vision</strong> and 
           <strong>Artificial Intelligence</strong>, specifically on the topic 
           of <strong>Segmentation</strong>.<br>"
   news:     "<h2>News</h2>
           <strong>[Mar. 2019]</strong> Our paper <a href='https://arxiv.org/pdf/1903.05027.pdf'>OANet</a> is accepted to <a href='http://cvpr2019.thecvf.com/'>CVPR2019</a> in Long Beach, California! <br>
-          <strong>[Jan. 2019]</strong> We have released the project <a href='https://github.com/ycszen/TorchSeg'>TorchSeg</a> which contains the source code of <a href='https://arxiv.org/abs/1804.09337'>DFN</a> and <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a>.</br>
+          <strong>[Jan. 2019]</strong> I have released the project <a href='https://github.com/ycszen/TorchSeg'>TorchSeg</a> which contains the source code of <a href='https://arxiv.org/abs/1804.09337'>DFN</a> and <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a>.</br>
           <strong>[Sep. 2018]</strong> As a team member of Megvii(Face++) and R4D Team, we won the <strong>1st place</strong> of COCO Panoptic Segmentation and Mapillary Panoptic Segmentation in the <a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>COCO & Mapillary Panoptic Segmentation Challenge 2018</a>. I was invited to present at COCO & Mapillary Joint Workshop at <a href='https://eccv2018.org/'>ECCV2018</a> in Munich, Germany.
           [<a href='https://mp.weixin.qq.com/s/K36j2JcTWPV1velUqyy6pA'><strong>ChinaNews</strong></a>]</br>
           <strong>[Jul. 2018]</strong> Our paper <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a> is accepted to <a href='https://eccv2018.org/'>ECCV2018</a> in München, Germany!<br>
