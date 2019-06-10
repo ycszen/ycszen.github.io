@@ -11,8 +11,8 @@ normal:
           <strong>Huazhong University of Science and Technology</strong>, supervised 
           by <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
           and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a>.
-          I received the China National Scholarship in 2018. Before that, I received 
-          my B.S. degree from Shandong University in 2016.<br><br>
+          I received the <strong>China National Scholarship</strong> in 2018. Before that, I received 
+          my B.S. degree from <strong>Shandong University</strong> in 2016.<br><br>
 
           I was a visiting student at the <strong>Australian Institute for Machine Learning</strong> 
           of the <strong>University of Adelaide</strong>, supervised by
@@ -35,7 +35,8 @@ normal:
           <strong>[Jul. 2017]</strong> I joined Megvii (Face++) as a Research Intern. During the time, I mainly researched on the topic of <strong>Segmentation</strong>. <br>"
   competitions: "<h2>Competitions</h2>
           <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of COCO 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
-          <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of Mapillary 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>"
+          <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of Mapillary 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
+          <li><a href='http://cvit.iiit.ac.in/scene-understanding-challenge-2018/benchmarks.php'>No.5 of Scene Understanding Challenge for Autonomous Navigation in Unstructured Environments</a></li>"
   professional-activities: "<h2>Professional Activities</h2>
           <li>Conference Reviewer: CVPR2019, ICCV2019.</li>
           <li>COCO & Mapillary Joint Workshop at ECCV2018, invited talk.</li>
