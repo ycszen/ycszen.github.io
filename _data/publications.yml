@@ -1,6 +1,6 @@
 - title: 'An End-to-End Network for Panoptic Segmentation'
   date:  'Mar. 2018'
-  imgurl: '/images/projects/2019/oanet.png'
+  # imgurl: '/images/projects/2019/oanet.png'
   imgprop: 'frame'
   selected: true
   authors:
@@ -28,7 +28,7 @@
 
 - title: 'BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation'
   date:  'Feb. 2018'
-  imgurl: '/images/projects/2018/bisenet.png'
+  # imgurl: '/images/projects/2018/bisenet.png'
   imgprop: 'frame'
   selected: true
   authors:
@@ -62,7 +62,7 @@
       
 - title: 'Learning a Discriminative Feature Network for Semantic Segmentation'
   date:  'Apr. 2018'
-  imgurl: '/images/projects/2018/dfn.png'
+  # imgurl: '/images/projects/2018/dfn.png'
   imgprop: 'frame'
   selected: true
   authors:
