@@ -1,4 +1,4 @@
-- date:  "June 2019 - September 2019"
+- date:  "Jun. 2019 - Sep. 2019"
   title: "Visiting Student @ The University of Adelaide"
   desc:  "Semantic Segmentation"
   host:
@@ -12,7 +12,7 @@
     name: "<a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a> and <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
     role: "Supervisor"
   brief: true
-- date:  "Summer 2017 - present"
+- date:  "Jul. 2017 - present"
   title: "Research Intern @ Megvii Inc. (Face++)"
   desc:  "Semantic Segmentation"
   host:
@@ -22,6 +22,7 @@
 - date:  "2016 - 2018"
   title: "Master Student @ HUST"
   desc:  "Deep Learning, Computer Vision"
+  brief: false
   host:
     name: "<a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>"
     role: "Supervisor"

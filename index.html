@@ -78,9 +78,9 @@ layout: home
   {% for publication in site.data.publications %}
   {% if publication.selected %}
     <div class="pub">
-      <!-- <div class="pub-left">
+      <div class="pub-left">
         <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
-      </div> -->
+      </div>
       <div class="pub-right">
         <div class="title">
           {{ publication.title }}
