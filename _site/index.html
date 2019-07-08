@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Changqian Yu</title>
+  <meta name="description" lang="en" content="This is an academic website for Changqian Yu to share his experiences, projects, publications and tech/non-tech posts. Changqian Yu is a Ph.D. student at Huazhong University of Science and Technology(HUST), working with Prof. Nong Sang. His research interests focus on the field of Deep Learning and Computer Vision, particularly in the topic of semantic segmentation. ">
+  <meta name="description" lang="cn" content="这是余昌黔的个人学术主页，用于分享他的个人经历，项目，学术论文，技术相关/不相关的博客。">
+  <meta name="keywords" lang="en" content="Changqian Yu,Publications,Posts,Research,Deep Learning,Computer Vision,Semantic Segmentation" />
+  <meta name="keywords" lang="cn" content="余昌黔,学术论文,博客,研究,深度学习,计算机视觉,图像语义分割" />
+  
+  
+
+  <link rel="shortcut icon" href="/images/favicon.svg">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Changqian Yu" href="http://localhost:4000/feed.xml" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="/js/jquery-2.1.3.min.js"> </script>
+
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+</script>
+<![endif]-->
+
+
+
+</head>
+
+
+  <body>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K5ZTMW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">Changqian Yu</a>
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="/">Home</a>
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+        
+        <a class="page-link" href="/posts/">Posts</a>
+        
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+      <!-- Button for Posts -->
+      
+
+    
+  </div>
+</nav>
+
+  </div>
+</header>
+
+    <div id="profile-cover" class="cover shallow-bg img-responsive">
+  
+  <div id="profile-namecard" class="profile-wrapper wrapper-light">
+    <div id="my-pic" class="profile-col profile-col-1">
+      <img id="profile-avatar" src="/images/self-portrait/ycq.jpg" alt="Me" class="circle-img border-dark"/>
+    </div>
+    <div id="my-contact" class="profile-col profile-col-2">
+      <div id="my-name" class="text-grey-dark">
+        Changqian Yu
+      </div>
+      <div id="my-title" class="text-grey">
+        PH.D. Student @ HUST
+      </div>
+      <div id="my-email" class="text-grey-light">
+        changqian_yu@hust.edu.cn
+      </div>
+      <div class="social-media">
+          
+<a href="https://github.com/ycszen" class="icon-button github">
+  <i class="fa fa-github icon-github"></i>
+  <span></span>
+</a>
+
+
+
+<a href="https://www.zhihu.com/people/yu-chang-qian/posts" class="icon-button zhihu">
+  <i class="fa fa-zhihu icon-zhihu">知</i>
+  <!-- <img src="/images/icon/color-zhihu.png" class="fa fa-zhihu icon-zhihu"> -->
+  <span></span>
+
+</a>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+      <div id="my-desc-title">
+        
+      </div>
+      <div id="my-desc-content">
+        
+      </div>
+    </div> -->
+  </div>
+</div>
+<!--  -->
+<!-- <script type="text/javascript" src="dist/canvas-nest.js"></script> -->
+  <!-- <script type="text/javascript" color="123,114,103" opacity='0.8' count="120" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> -->
+<!--  -->
+<script type="text/javascript">
+//  function deepFeature()
+//  {
+//    $('#profile-avatar').attr('src', '');
+//    $('#profile-avatar').removeClass('border-dark');
+//   $('#profile-avatar').addClass('border-bright');
+//
+//    $('#profile-cover').removeClass('shallow-bg');
+//    $('#profile-cover').addClass('deep-bg');
+//    
+//    $('#profile-namecard').removeClass('wrapper-light');
+//    $('#profile-namecard').addClass('wrapper-dark');
+//    
+//    $('#my-desc').removeClass('hide');
+//    $('#my-contact').addClass('hide');    
+//    // console.log('Move in now...');
+//  }
+
+  function shallowFeature()
+  {
+    $('#profile-avatar').attr('src', '/images/self-portrait/ycq.jpg');
+    // $('#profile-avatar').removeClass('border-bright');
+    $('#profile-avatar').addClass('border-dark');
+
+    // $('#profile-cover').removeClass('deep-bg');
+    $('#profile-cover').addClass('shallow-bg');
+    
+    // $('#profile-namecard').removeClass('wrapper-dark');
+    $('#profile-namecard').addClass('wrapper-light');
+    
+    $('#my-contact').removeClass('hide');
+    $('#my-desc').addClass('hide');
+    // console.log('Move out now...');
+  }
+
+  $(function() { 
+    $('#my-pic').hover(shallowFeature);
+  })
+
+</script>
+
+<script color="123,114,103" opacity='0.8' count="120" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js"></script>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    Biography
+  </h1>
+  <div class="bio-body">
+    <p>
+      <strong>Changqian Yu</strong> is a second-year graduate student majoring in Computer Vision at <strong>Huazhong University of Science and Technology</strong>. He is pursuing his Master Degree under the supervision of <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a> and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a> (2016-2019). He works as a research intern at <strong>Megvii (Face++) Inc.</strong> mentored by <a href='http://www.skicyyu.org/'>Dr. Gang Yu</a> and supervised by <a href='http://www.jiansun.org/'>Dr. Jian Sun</a>. His research interests focus on the <strong>Computer Vision</strong> and <strong>Artificial Intelligence</strong>, specifically on the topic of <strong>Segmentation</strong>.<br>
+      [<strong>
+        <a href='/pdf/resume/yuchangqian_cv.pdf'>Résumé</a>
+      </strong>]
+    </p>
+    <p>
+      <h2>News</h2> <strong>[Sep. 2018]</strong> As a team member of Megvii(Face++) and R4D Team, we won the <strong>1st place</strong> of COCO Panoptic Segmentation and Mapillary Panoptic Segmentation in the <a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>COCO & Mapillary Panoptic Segmentation Challenge 2018</a>. I was invited to present at COCO & Mapillary Joint Workshop at <a href='https://eccv2018.org/'>ECCV2018</a> in Munich, Germany. </br> <strong>[Jul. 2018]</strong> One paper accepted to <a href='https://eccv2018.org/'>ECCV2018</a> in in München, Germany!<br> <strong>[Apr. 2018]</strong> I have presented my poster on the <a href='http://ice.dlut.edu.cn/valse2018/index.html'>Vision and Learning Seminar(VALSE2018)</a> in Dalian, LiaoNing Province, China. <br> <strong>[Feb. 2018]</strong> Our paper <a href='https://arxiv.org/abs/1804.09337'>DFN</a> is accepted to <a href='http://cvpr2018.thecvf.com/'>CVPR2018</a> in Salt Lake City, Ultah State! <br> <strong>[Jul. 2017]</strong> I joined Megvii (Face++) as a Research Intern. During the time, I mainly researched on the topic of <strong>Segmentation</strong>. <br>
+    </p>
+    <p>
+      <h2>Competitions</h2> <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of COCO 2018 Challenge in Panoptic Segmentation Track 2018</a> </li> <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of Mapillary 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
+    </p>
+  </div>
+</div>
+
+
+<div id="timeline" class="timeline-brief">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    Timeline
+  </h1>
+
+  <div class="timeline-body">
+    
+    
+    <div class="timeline-item">
+      <div class="timeline-date">
+        2018 - 
+      </div>
+      <div class="timeline-title">
+        PhD student @ HUST
+      </div>
+      <div class="timeline-desc">
+        Deep Learning, Computer Vision
+      </div>
+      
+      <div class="timeline-host">
+        Supervisor: <a href='http://auto.hust.edu.cn/info/1154/3414.htm/'>Prof. Nong Sang</a> and <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="timeline-item">
+      <div class="timeline-date">
+        Summer 2017 - 
+      </div>
+      <div class="timeline-title">
+        Research Intern @ Megvii Inc. (Face++)
+      </div>
+      <div class="timeline-desc">
+        Semantic Segmentation
+      </div>
+      
+      <div class="timeline-host">
+        Mentor: <a href='http://www.jiansun.org/'>Dr. Jian Sun</a> and <a http://www.skicyyu.org/'>Dr. Gang Yu</a>
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="timeline-item">
+      <div class="timeline-date">
+        2016 - 2018
+      </div>
+      <div class="timeline-title">
+        Master student @ HUST
+      </div>
+      <div class="timeline-desc">
+        Deep Learning, Computer Vision
+      </div>
+      
+      <div class="timeline-host">
+        Supervisor: <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+  </div>
+
+  <div class="button">
+    <h1 class="sm-heading text-center">
+      <a href="/timeline/#timeline">
+        <i class="fa fa-info-circle"></i>
+      </a>
+    </h1>
+  </div>
+</div>
+
+<div id="publications" class="publications">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Selected Publications
+  </h1>
+
+  <div class="pub-list">
+  
+  
+    <div class="pub">
+      <div class="pub-left">
+        <img class="intro-img frame" src="/images/projects/2018/bisenet.png"/>
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation
+        </div>
+        <div class="authors">
+          
+            <a class="author" href="http://changqianyu.me">
+               <strong>Changqian Yu</strong>
+              * 
+            </a>
+            ,
+          
+            <a class="author" href="">
+               Jingbo Wang
+              * 
+            </a>
+            ,
+          
+            <a class="author" href="http://www.pengchao.org/">
+               Chao Peng
+              
+            </a>
+            ,
+          
+            <a class="author" href="https://sites.google.com/site/changxingao/">
+               Changxin Gao
+              
+            </a>
+            ,
+          
+            <a class="author" href="http://www.skicyyu.org/">
+               Gang Yu
+              
+            </a>
+            ,
+          
+            <a class="author" href="http://auto.hust.edu.cn/info/1154/3414.htm">
+               Nong Sang
+              
+            </a>
+            
+          
+        </div>
+        <div class="desc">
+          <p>
+          
+            Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain sufficient receptive field. On top of the two paths, we introduce a new Feature Fusion Module to combine features efficiently. The proposed architecture makes a right balance between the speed and segmentation performance on Cityscapes, CamVid, and COCO-Stuff datasets. Specifically, for a 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP card, which is significantly faster than the existing methods with comparable performance.
+          
+          </p>
+        </div>
+        <div class="publish">
+          <span class="publisher">ECCV 2018</span>
+          <span class="status"></span>
+          <span class="place">in Munich, Germany</span>
+        </div>
+        <div class="tags">
+          
+          [<a class="tag" href="https://arxiv.org/abs/1808.00897"> <strong>arXiv</strong> </a>]
+          
+          [<a class="tag" href="/source/bib/yu_eccv18_bisenet.bib"> <strong>bib</strong> </a>]
+          
+        </div>
+      </div>
+    </div>
+  
+  
+  
+    <div class="pub">
+      <div class="pub-left">
+        <img class="intro-img frame" src="/images/projects/2018/dfn.png"/>
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Learning a Discriminative Feature Network for Semantic Segmentation
+        </div>
+        <div class="authors">
+          
+            <a class="author" href="http://changqianyu.me">
+               <strong>Changqian Yu</strong>
+              
+            </a>
+            ,
+          
+            <a class="author" href="">
+               Jingbo Wang
+              
+            </a>
+            ,
+          
+            <a class="author" href="http://www.pengchao.org/">
+               Chao Peng
+              
+            </a>
+            ,
+          
+            <a class="author" href="https://sites.google.com/site/changxingao/">
+               Changxin Gao
+              
+            </a>
+            ,
+          
+            <a class="author" href="http://www.skicyyu.org/">
+               Gang Yu
+              
+            </a>
+            ,
+          
+            <a class="author" href="http://auto.hust.edu.cn/info/1154/3414.htm">
+               Nong Sang
+              
+            </a>
+            
+          
+        </div>
+        <div class="desc">
+          <p>
+          
+            Most existing methods of semantic segmentation still suffer from two aspects of challenges: intra-class inconsistency and inter-class indistinction. To tackle these two problems, we propose a Discriminative Feature Network (DFN), which contains two sub-networks: Smooth Network and Border Network. Specifically, to handle the intra-class inconsistency problem, we specially design a Smooth Network with Channel Attention Block and global average pooling to select the more discriminative features. Furthermore, we propose a Border Network to make the bilateral features of boundary distinguishable with deep semantic boundary supervision. Based on our proposed DFN, we achieve state-of-the-art performance 86.2% mean IOU on PASCAL VOC 2012 and 80.3% mean IOU on Cityscapes dataset.
+          
+          </p>
+        </div>
+        <div class="publish">
+          <span class="publisher">CVPR 2018</span>
+          <span class="status"></span>
+          <span class="place">in Salt Lake City, Utah</span>
+        </div>
+        <div class="tags">
+          
+          [<a class="tag" href="https://arxiv.org/abs/1804.09337"> <strong>arXiv</strong> </a>]
+          
+          [<a class="tag" href="/source/pdf/poster/dfn_cvpr18_poster.pdf"> <strong>poster</strong> </a>]
+          
+          [<a class="tag" href="/source/bib/yu_cvpr18_dfn.bib"> <strong>bib</strong> </a>]
+          
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+
+  <div class="button">
+    <h1 class="sm-heading text-center">
+      <a href="/publications/#publications">
+        <i class="fa fa-info-circle"></i> All Publications
+      </a>
+    </h1>
+  </div>
+</div>
+
+</div>
+
+      </div>
+    </div>
+
+    
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--       <h2 class="footer-heading">
+      <a class="page-link" href="http://localhost:4000/about">
+      About Changqian Yu
+    </a></h2> -->
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-half">
+        <h2 class="footer-heading">About Changqian You</h2>
+      <div class="footer-col  footer-col-half">
+
+        <ul class="contact-list">
+          <li>Changqian Yu</li>
+          <li><a href="mailto:">changqian_yu@hust.edu.cn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-half">
+        
+
+
+
+
+<a href="https://github.com/ycszen">
+  <img src="/images/icon/color-github.png" class="social-icon">
+</a>
+
+
+
+<a href="https://www.zhihu.com/people/yu-chang-qian/posts">
+  <img src="/images/icon/color-zhihu.png" class="social-icon">
+</a>
+
+
+
+
+
+
+      </div>
+    </div>
+
+      
+      <div class="footer-col  footer-col-half">
+        <h2 class="footer-heading">Links</h2>
+<!--       <h2 class="footer-heading">Links</h2> -->
+        <p class="text"><a href='http://www.skicyyu.org/'>俞刚(Yu Gang)</a> <a href='http://www.pengchao.org/'>彭超(Peng Chao)</a><br> <a href='http://www.zemingli.com/'>黎泽明(Li Zeming)</a> <a href='http://wangjingbo.top/'>王靖博(Wang Jingbo)</a><br> <a href='https://www.sshao.com/'>邵帅(Shao Shuai)</a> </p>
+      </div>
+
+  </div>
+</div>
+
+<div class="wrapper">
+  <a href="https://www.easycounter.com/">
+    <img src="https://www.easycounter.com/counter.php?ycszen"
+      border="0" alt="Unique Visitors"></a>
+  <i>unique visitors since Mar. 2018</i><br>
+  <i>Last update: Agu. 2018</i>
+</div>
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=aFvTW_0ODpg0EvtXoQ_liVpMacfewO_TFVAMvuIgR7I"></script>
+
+
+</footer>
+
+
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+  </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>
