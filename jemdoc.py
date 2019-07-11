@@ -1043,7 +1043,8 @@ def dashlist(f, ordered=False):
       # same level, make a new list item.
       out(f.outf, '\n</li>\n<li>')
 
-    out(f.outf, '<p>' + br(s, f) + '</p>')
+    # out(f.outf, '<p>' + br(s, f) + '</p>')
+    out(f.outf, '' + br(s, f))
     level = newlevel
 
   for i in range(level):
