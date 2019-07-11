@@ -1,0 +1,165 @@
+# jemdoc: nofooter analytics{UA-143621191-1}
+{{<div class="container">}}
+
+~~~
+{}{raw}
+<center>
+~~~
+
+~~~
+{}{img_left}{imgs/potrait/ycq.jpg}{Photo}{194px}{250px}{}
+{{<center>}}
+{{
+    <h1>Changqian Yu</h1> 
+    <h3>Ph.D. Candidate</h3>
+}}
+
+School of Artificial Intelligence and Automation\n
+Huazhong University of Science and Technology\n
+Wuhan, Hubei, China\n
+
+Email: [mailto:changqian_yu@hust.edu.cn changqian_yu \[at\] hust.edu.cn]
+{{
+<p>
+    <a href="https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en"><img src="imgs/icon/google-scholar.png" height="40px"></a>
+    <a href="https://github.com/ycszen"><img src="imgs/icon/color-github.png" height="40px"></a>
+    <a href="https://www.zhihu.com/people/yu-chang-qian/posts"><img src="imgs/icon/grey-zhihu.png" height="40px"></a>
+    <a href="https://www.linkedin.com/in/changqian-yu-82189ba6/"><img src="imgs/icon/color-linkedin.png" height="40px"></a>
+</p>}}
+{{</center>}}
+~~~
+
+~~~
+{}{raw}
+</center>
+~~~
+
+== Biography \{[source/pdf/resume/ChangqianYu.pdf CV]\}
+I am a first-year PH.D. student majoring in Computer Vision at [http://www.hust.edu.cn/ 
+Huazhong University of Science and Technology], supervised  by 
+[https://sites.google.com/site/changxingao/ A.P. Changxin Gao]
+and [http://auto.hust.edu.cn/info/1154/3414.htm Prof. Nong Sang].
+I received the China National Scholarship in 2018. Before that, I received 
+my B.S. degree from [http://www.sdu.edu.cn/ Shandong University] in 2016.
+
+I was a visiting student at the [https://www.adelaide.edu.au/aiml/home 
+Australian Institute for Machine Learning]
+of the [https://www.adelaide.edu.au/ University of Adelaide], supervised by 
+[https://cs.adelaide.edu.au/~chhshen/ Prof. Chunhua Shen].
+Before that, I was a research intern at [https://megvii.com/ Megvii(Face\+\+) 
+Research] mentored by [http://www.skicyyu.org/ Dr. Gang Yu] and supervised by 
+[http://www.jiansun.org/ Dr. Jian Sun].
+
+My research interests focus on Computer Vision and Artificial Intelligence, 
+specifically on the topic of Segmentation.
+
+
+== News
+- \[Jun. 2019\] I become a visiting student at the [https://www.adelaide.edu.au/aiml/home Australian Institute for Machine Learning] of the University of Adelaide, supervised by 
+[https://cs.adelaide.edu.au/~chhshen/ Prof. Chunhua Shen]. 
+- \[Mar. 2019\] Our paper [https://arxiv.org/pdf/1903.05027.pdf OANet] is accepted to [http://cvpr2019.thecvf.com CVPR2019] in Long Beach, California!
+- \[Jan. 2019\] I have released the project [https://github.com/ycszen/TorchSeg TorchSeg] which contains the source code of [https://arxiv.org/abs/1804.09337 DFN] and [https://arxiv.org/abs/1808.00897 BiSeNet]. \n
+- \[Sep. 2018\] As a team member of Megvii(Face\+\+) and R4D Team, we won the *1st place* of COCO Panoptic Segmentation and Mapillary Panoptic Segmentation in the [http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html COCO \& Mapillary Panoptic Segmentation Challenge 2018]. I was invited to present at COCO \& Mapillary Joint Workshop at [https://eccv2018.org/ ECCV2018] in Munich, Germany.
+    [https://mp.weixin.qq.com/s/K36j2JcTWPV1velUqyy6pA' *\[ChinaNews\]*] 
+- \[Jul. 2018\] Our paper [https://arxiv.org/abs/1808.00897 BiSeNet] is accepted to [https://eccv2018.org/ ECCV2018] in München, Germany!
+- \[Apr. 2018\] I have presented my poster on the [http://ice.dlut.edu.cn/valse2018/index.html Vision and Learning Seminar(VALSE2018)] in Dalian, LiaoNing Province, China. \n
+- \[Feb. 2018\] Our paper [https://arxiv.org/abs/1804.09337' DFN] is accepted to [http://cvpr2018.thecvf.com/ CVPR2018] in Salt Lake City, Ultah State! 
+- \[Jul. 2017\] I join Megvii (Face\+\+) Research as a Research Intern. During the time, I mainly researched on the topic of Segmentation.
+
+== Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
+\* below indicates equal contribution
+- [https://arxiv.org/abs/1903.05027 *An End-to-End Network for Panoptic Segmentation*]\n
+    Huanyu Liu, Chao Peng, *Changqian Yu*, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang\n
+    /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2019.\n
+    \[[https://arxiv.org/abs/1903.05027 Paper]\]
+- [https://arxiv.org/abs/1808.00897 *BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation*]\n
+    *Changqian Yu\**, Jingbo Wang\*, Chao Peng, Changxin Gao, Gang Yu, Nong Sang\n
+    /European Conference on Computer Vision/ (*ECCV*), 2019.\n
+    \[[https://arxiv.org/abs/1808.00897 Paper]\]\[[https://github.com/ycszen/TorchSeg Code]\]\[[source/pdf/poster/bisenet_eccv18_poster.pdf Poster]\]\[[https://mp.weixin.qq.com/s/520WqCIs_kf3p1RAyqbEcg ChinaNews]\]
+- [https://arxiv.org/abs/1804.09337 *Learning a Discriminative Feature Network for Semantic Segmentation*]\n
+    *Changqian Yu*, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang\n
+    /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2018.\n
+    \[[https://arxiv.org/abs/1804.09337 Paper]\]\[[https://github.com/ycszen/TorchSeg Code]\]\[[source/pdf/poster/dfn_cvpr18_poster.pdf Poster]\]\[[https://mp.weixin.qq.com/s/4csAftUmJErdA4qn26mO3Q ChinaNews]\]
+- [https://ieeexplore.ieee.org/document/8451045 *Spatially Attentive Correlation Filters for Visual Tracking*]\n
+    Huai Qin, Zhixiong Pi, *Changqian Yu*, Changxin Gao, Jin-Gang Yu, Nong Sang\n
+    /IEEE International Conference on Image Processing/ (*ICIP*), 2018.\n
+    \[[https://ieeexplore.ieee.org/document/8451045 Paper]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-03398-9_9 *Center-Level Verification Model for Person Re-identification*]\n
+    Ruochen Zheng, Yang Chen, *Changqian Yu*, Chuchu Han, Changxin Gao, Nong Sang\n
+    /Chinese Conference on Pattern Recognition and Computer Vision/ (*PRCV*), 2018.\n
+    \[[https://link.springer.com/chapter/10.1007/978-3-030-03398-9_9 Paper]\]
+
+== Experience
+- {{<div style="float:left; text-align:left"><a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a>, 
+    University of Adelaide, Australia</div>  <div style="float:right; text-align:right">Jun. 2019 – Sep. 2019</div> }}\n 
+    Visiting Ph.D. Student \n 
+    Advisor: [https://cs.adelaide.edu.au/~chhshen/ Prof. Chunhua Shen] \n
+- {{<div style="float:left; text-align:left"><a href="https://https://megvii.com/">Megvii(Face++) Research</a>, Beijing, China</div> 
+    <div style="float:right; text-align:right">Jul. 2017 – Jun. 2019</div> }}\n
+    Computer Vision Research Intern \n
+    Advisor: [http://www.skicyyu.org/ Dr. Gang Yu] and [http://www.jiansun.org/ Dr. Jian Sun] \n
+
+== Academic Competetion
+- {{<div style="float:left; text-align:left"> <strong>Winner</strong> of COCO 2018 Challenge in Panoptic Segmentation Track </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> <strong>Winner</strong> of Mapillary 2018 Challenge in Panoptic Segmentation Track </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> No.5 of Scene Understanding Challenge for Autonomous Navigation in Unstructured Environments </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+
+== Honors & Awards
+- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2019</div> }} \n
+- {{<div style="float:left; text-align:left">  <strong>National Scholarship</strong>, Ministry of Education of P.R. China </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> Merit Student, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> Graduate Knowledge and Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2017</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, National University Student Social Practice and Science Contest on 
+    Energy Saving & </br> Emission Reduction</div>
+    <div style="float:right; text-align:right">2015</div> }} \n\n
+- {{<div style="float:left; text-align:left"> Outstanding Student Cadre, Shandong University </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left"> Innovative Entrepreneurial Activities Advanced Individuals, Shandong University </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left"> First Class Prize, "RoboCup" Open Finals and China Robot Competition </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, National College Students Innovation and Entrepreneurship Training Program </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, Shandong Province College Students "TI Cup" Electronic Design Competition </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">“Weichai Power” Scholarship, Shandong University </div>
+    <div style="float:right; text-align:right">2013</div> }} \n
+
+== Professional Activities
+- Conference Reviewer: \n
+: {} IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019. \n
+    IEEE International Conference on Computer Vision (ICCV) 2019. \n
+- Microsoft Research Asia (MSRA) VCG talk: "Context in Semantic Segmentation", 2019
+- ECCV2018 COCO \& Mapillary Joint Workshop talk: "MSCOCO \& Mapillary Panoptic Segmentation
+Challenge 2018", 2018
+
+
+~~~
+{}{raw}
+    <div id="footer">
+        <div id="footer-text"></div>
+    </div>
+
+    <div style="float:center; text-align:center">
+        Links:<a href='http://www.skicyyu.org/'>俞刚(Yu Gang)</a> &nbsp; 
+        <a href='http://www.pengchao.org/'>彭超(Peng Chao)</a> &nbsp;
+        <a href='http://www.zemingli.com/'>黎泽明(Li Zeming)</a> &nbsp;
+        <a href='http://wangjingbo.top/'>王靖博(Wang Jingbo)</a> &nbsp;
+        <a href='https://www.sshao.com/'>邵帅(Shao Shuai)</a> &nbsp;
+    </div>
+
+    <center><a href="https://www.easycounter.com/">
+                    <img src="https://www.easycounter.com/counter.php?ycszen"
+                    border="0" alt="Unique Visitors"></a>
+                    <i>unique visitors</i> | © Changqian Yu | Last updated: 11/07/2019 </center>
+    </div></div>
+~~~

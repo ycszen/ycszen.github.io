@@ -1,131 +1,205 @@
----
-layout: home
----
-
-<div id="bio" class="bio">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-id-card" aria-hidden="true"></i>
-    Biography
-  </h1>
-  <div class="bio-body">
-    <p>
-      {{ site.data.bio.normal.content }}
-      [<strong>
-        <a href='{{ site.data.bio.scholar | prepend: site.baseurl }}'>Google Scholar</a>
-      </strong>]
-      [<strong>
-        <a href='{{ site.data.bio.resume | prepend: site.baseurl }}'>Résumé</a>
-      </strong>]
-    </p>
-    <p>
-      {{ site.data.bio.normal.news }}
-    </p>
-    <p>
-      {{ site.data.bio.normal.competitions }}
-    </p>
-    <p>
-      {{ site.data.bio.normal.professional-activities }}
-    </p>
-  </div>
-</div>
-
-
-<div id="timeline" class="timeline-brief">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    Timeline
-  </h1>
-
-  <div class="timeline-body">
-    {% for experience in site.data.experiences %}
-    {% if experience.brief == true %}
-    <div class="timeline-item">
-      <div class="timeline-date">
-        {{ experience.date }}
-      </div>
-      <div class="timeline-title">
-        {{ experience.title }}
-      </div>
-      <div class="timeline-desc">
-        {{ experience.desc }}
-      </div>
-      {% unless experience.host == false %}
-      <div class="timeline-host">
-        {{ experience.host.role }}: {{ experience.host.name }}
-      </div>
-      {% endunless %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<title></title>
+</head>
+<body>
+<div id="layout-content">
+<p><div class="container"></p>
+<center>
+<table class="imgtable"><tr><td>
+<img src="imgs/potrait/ycq.jpg" alt="Photo" width="194px" height="250px" />&nbsp;</td>
+<td align="left"><p><center></p>
+<p>
+<h1>Changqian Yu</h1> 
+<h3>Ph.D. Candidate</h3>
+</p>
+<p>School of Artificial Intelligence and Automation<br />
+Huazhong University of Science and Technology<br />
+Wuhan, Hubei, China<br /></p>
+<p>Email: <a href="mailto:changqian_yu@hust.edu.cn">changqian_yu [at] hust.edu.cn</a></p>
+<p>
+<p>
+<a href="https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en"><img src="imgs/icon/google-scholar.png" height="40px"></a>
+<a href="https://github.com/ycszen"><img src="imgs/icon/color-github.png" height="40px"></a>
+<a href="https://www.zhihu.com/people/yu-chang-qian/posts"><img src="imgs/icon/grey-zhihu.png" height="40px"></a>
+<a href="https://www.linkedin.com/in/changqian-yu-82189ba6/"><img src="imgs/icon/color-linkedin.png" height="40px"></a>
+</p></p>
+<p></center></p>
+</td></tr></table>
+</center>
+<h2>Biography {<a href="source/pdf/resume/ChangqianYu.pdf">CV</a>}</h2>
+<p>I am a first-year PH.D. student majoring in Computer Vision at <a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a>, supervised  by 
+<a href="https://sites.google.com/site/changxingao/">A.P. Changxin Gao</a>
+and <a href="http://auto.hust.edu.cn/info/1154/3414.htm">Prof. Nong Sang</a>.
+I received the China National Scholarship in 2018. Before that, I received 
+my B.S. degree from <a href="http://www.sdu.edu.cn/">Shandong University</a> in 2016.</p>
+<p>I was a visiting student at the <a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a>
+of the <a href="https://www.adelaide.edu.au/">University of Adelaide</a>, supervised by 
+<a href="https://cs.adelaide.edu.au/~chhshen/">Prof. Chunhua Shen</a>.
+Before that, I was a research intern at <a href="https://megvii.com/">Megvii(Face++) 
+Research</a> mentored by <a href="http://www.skicyyu.org/">Dr. Gang Yu</a> and supervised by 
+<a href="http://www.jiansun.org/">Dr. Jian Sun</a>.</p>
+<p>My research interests focus on Computer Vision and Artificial Intelligence, 
+specifically on the topic of Segmentation.</p>
+<h2>News</h2>
+<ul>
+<li><p>[Jun. 2019] I become a visiting student at the <a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a> of the University of Adelaide, supervised by 
+<a href="https://cs.adelaide.edu.au/~chhshen/">Prof. Chunhua Shen</a>. </p>
+</li>
+<li><p>[Mar. 2019] Our paper <a href="https://arxiv.org/pdf/1903.05027.pdf">OANet</a> is accepted to <a href="http://cvpr2019.thecvf.com">CVPR2019</a> in Long Beach, California!</p>
+</li>
+<li><p>[Jan. 2019] I have released the project <a href="https://github.com/ycszen/TorchSeg">TorchSeg</a> which contains the source code of <a href="https://arxiv.org/abs/1804.09337">DFN</a> and <a href="https://arxiv.org/abs/1808.00897">BiSeNet</a>. <br /></p>
+</li>
+<li><p>[Sep. 2018] As a team member of Megvii(Face++) and R4D Team, we won the <b>1st place</b> of COCO Panoptic Segmentation and Mapillary Panoptic Segmentation in the <a href="http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html">COCO & Mapillary Panoptic Segmentation Challenge 2018</a>. I was invited to present at COCO & Mapillary Joint Workshop at <a href="https://eccv2018.org/">ECCV2018</a> in Munich, Germany.
+<a href="https://mp.weixin.qq.com/s/K36j2JcTWPV1velUqyy6pA'"><b>[ChinaNews]</b></a> </p>
+</li>
+<li><p>[Jul. 2018] Our paper <a href="https://arxiv.org/abs/1808.00897">BiSeNet</a> is accepted to <a href="https://eccv2018.org/">ECCV2018</a> in München, Germany!</p>
+</li>
+<li><p>[Apr. 2018] I have presented my poster on the <a href="http://ice.dlut.edu.cn/valse2018/index.html">Vision and Learning Seminar(VALSE2018)</a> in Dalian, LiaoNing Province, China. <br /></p>
+</li>
+<li><p>[Feb. 2018] Our paper <a href="https://arxiv.org/abs/1804.09337'">DFN</a> is accepted to <a href="http://cvpr2018.thecvf.com/">CVPR2018</a> in Salt Lake City, Ultah State! </p>
+</li>
+<li><p>[Jul. 2017] I join Megvii (Face++) Research as a Research Intern. During the time, I mainly researched on the topic of Segmentation.</p>
+</li>
+</ul>
+<h2>Publications {<a href="https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&amp;hl=en">Google Scholar</a>}</h2>
+<p>* below indicates equal contribution</p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/1903.05027"><b>An End-to-End Network for Panoptic Segmentation</b></a><br />
+Huanyu Liu, Chao Peng, <b>Changqian Yu</b>, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang<br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition</i> (<b>CVPR</b>), 2019.<br />
+[<a href="https://arxiv.org/abs/1903.05027">Paper</a>]</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/1808.00897"><b>BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation</b></a><br />
+<b>Changqian Yu*</b>, Jingbo Wang*, Chao Peng, Changxin Gao, Gang Yu, Nong Sang<br />
+<i>European Conference on Computer Vision</i> (<b>ECCV</b>), 2019.<br />
+[<a href="https://arxiv.org/abs/1808.00897">Paper</a>][<a href="https://github.com/ycszen/TorchSeg">Code</a>][<a href="source/pdf/poster/bisenet_eccv18_poster.pdf">Poster</a>][<a href="https://mp.weixin.qq.com/s/520WqCIs_kf3p1RAyqbEcg">ChinaNews</a>]</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/1804.09337"><b>Learning a Discriminative Feature Network for Semantic Segmentation</b></a><br />
+<b>Changqian Yu</b>, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang<br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition</i> (<b>CVPR</b>), 2018.<br />
+[<a href="https://arxiv.org/abs/1804.09337">Paper</a>][<a href="https://github.com/ycszen/TorchSeg">Code</a>][<a href="source/pdf/poster/dfn_cvpr18_poster.pdf">Poster</a>][<a href="https://mp.weixin.qq.com/s/4csAftUmJErdA4qn26mO3Q">ChinaNews</a>]</p>
+</li>
+<li><p><a href="https://ieeexplore.ieee.org/document/8451045"><b>Spatially Attentive Correlation Filters for Visual Tracking</b></a><br />
+Huai Qin, Zhixiong Pi, <b>Changqian Yu</b>, Changxin Gao, Jin-Gang Yu, Nong Sang<br />
+<i>IEEE International Conference on Image Processing</i> (<b>ICIP</b>), 2018.<br />
+[<a href="https://ieeexplore.ieee.org/document/8451045">Paper</a>]</p>
+</li>
+<li><p><a href="https://link.springer.com/chapter/10.1007/978-3-030-03398-9_9"><b>Center-Level Verification Model for Person Re-identification</b></a><br />
+Ruochen Zheng, Yang Chen, <b>Changqian Yu</b>, Chuchu Han, Changxin Gao, Nong Sang<br />
+<i>Chinese Conference on Pattern Recognition and Computer Vision</i> (<b>PRCV</b>), 2018.<br />
+[<a href="https://link.springer.com/chapter/10.1007/978-3-030-03398-9_9">Paper</a>]</p>
+</li>
+</ul>
+<h2>Experience</h2>
+<ul>
+<li><p><div style="float:left; text-align:left"><a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a>, 
+University of Adelaide, Australia</div>  <div style="float:right; text-align:right">Jun. 2019 – Sep. 2019</div> <br /> 
+Visiting Ph.D. Student <br /> 
+Advisor: <a href="https://cs.adelaide.edu.au/~chhshen/">Prof. Chunhua Shen</a> <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"><a href="https://https://megvii.com/">Megvii(Face++) Research</a>, Beijing, China</div> 
+<div style="float:right; text-align:right">Jul. 2017 – Jun. 2019</div> <br />
+Computer Vision Research Intern <br />
+Advisor: <a href="http://www.skicyyu.org/">Dr. Gang Yu</a> and <a href="http://www.jiansun.org/">Dr. Jian Sun</a> <br /></p>
+</li>
+</ul>
+<h2>Academic Competetion</h2>
+<ul>
+<li><p><div style="float:left; text-align:left"> <strong>Winner</strong> of COCO 2018 Challenge in Panoptic Segmentation Track </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> <strong>Winner</strong> of Mapillary 2018 Challenge in Panoptic Segmentation Track </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> No.5 of Scene Understanding Challenge for Autonomous Navigation in Unstructured Environments </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+</ul>
+<h2>Honors &amp; Awards</h2>
+<ul>
+<li><p><div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+<div style="float:right; text-align:right">2019</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left">  <strong>National Scholarship</strong>, Ministry of Education of P.R. China </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> Merit Student, Huazhong University of Science and Technology </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+<div style="float:right; text-align:right">2018</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> Graduate Knowledge and Excellence Scholarship, Huazhong University of Science and Technology </div>
+<div style="float:right; text-align:right">2017</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left">Second Class Prize, National University Student Social Practice and Science Contest on 
+Energy Saving & </br> Emission Reduction</div>
+<div style="float:right; text-align:right">2015</div>  <br /><br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> Outstanding Student Cadre, Shandong University </div>
+<div style="float:right; text-align:right">2014</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> Innovative Entrepreneurial Activities Advanced Individuals, Shandong University </div>
+<div style="float:right; text-align:right">2014</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left"> First Class Prize, "RoboCup" Open Finals and China Robot Competition </div>
+<div style="float:right; text-align:right">2014</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left">Second Class Prize, National College Students Innovation and Entrepreneurship Training Program </div>
+<div style="float:right; text-align:right">2014</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left">Second Class Prize, Shandong Province College Students "TI Cup" Electronic Design Competition </div>
+<div style="float:right; text-align:right">2014</div>  <br /></p>
+</li>
+<li><p><div style="float:left; text-align:left">“Weichai Power” Scholarship, Shandong University </div>
+<div style="float:right; text-align:right">2013</div>  <br /></p>
+</li>
+</ul>
+<h2>Professional Activities</h2>
+<ul>
+<li><p>Conference Reviewer: <br /></p>
+</li>
+</ul>
+<dl>
+<dt></dt>
+<dd><p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019. <br />
+IEEE International Conference on Computer Vision (ICCV) 2019. <br /></p></dd>
+</dl>
+<ul>
+<li><p>Microsoft Research Asia (MSRA) VCG talk: &ldquo;Context in Semantic Segmentation&rdquo;, 2019</p>
+</li>
+<li><p>ECCV2018 COCO & Mapillary Joint Workshop talk: &ldquo;MSCOCO & Mapillary Panoptic Segmentation
+Challenge 2018&rdquo;, 2018</p>
+</li>
+</ul>
+    <div id="footer">
+        <div id="footer-text"></div>
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
 
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/timeline/#timeline' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i>
-      </a>
-    </h1>
-  </div>
-</div>
-
-<div id="publications" class="publications">
-  <h1 class="md-heading text-center">
-    <i class="fa fa-file" aria-hidden="true"></i>
-    Selected Publications
-  </h1>
-
-  <div class="pub-list">
-  {% for publication in site.data.publications %}
-  {% if publication.selected %}
-    <div class="pub">
-      <div class="pub-left">
-        <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
-      </div>
-      <div class="pub-right">
-        <div class="title">
-          {{ publication.title }}
-        </div>
-        <div class="authors">
-          {% for author in publication.authors %}
-            <a class="author" href="{{ author.url }}">
-              {{ author.name | prepend: ' '}}
-              {% if author.equal_contribution %}* {% endif %}
-            </a>
-            {% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        </div>
-        <div class="desc">
-          <p>
-          {% if publication.desc contains '<!--more-->' %}
-            {{ publication.desc | split:'<!--more-->' | first }}
-          {% else %}
-            {{ publication.desc }}
-          {% endif %}
-          </p>
-        </div>
-        <div class="publish">
-          <span class="publisher">{{ publication.publisher }}</span>
-          <span class="status">{{ publication.status }}</span>
-          <span class="place">{{ publication.place }}</span>
-        </div>
-        <div class="tags">
-          {% for tag in publication.tags %}
-          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
-          {% endfor %}
-        </div>
-      </div>
+    <div style="float:center; text-align:center">
+        Links:<a href='http://www.skicyyu.org/'>俞刚(Yu Gang)</a> &nbsp; 
+        <a href='http://www.pengchao.org/'>彭超(Peng Chao)</a> &nbsp;
+        <a href='http://www.zemingli.com/'>黎泽明(Li Zeming)</a> &nbsp;
+        <a href='http://wangjingbo.top/'>王靖博(Wang Jingbo)</a> &nbsp;
+        <a href='https://www.sshao.com/'>邵帅(Shao Shuai)</a> &nbsp;
     </div>
-  {% endif %}
-  {% endfor %}
-  </div>
 
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> All Publications
-      </a>
-    </h1>
-  </div>
+    <center><a href="https://www.easycounter.com/">
+                    <img src="https://www.easycounter.com/counter.php?ycszen"
+                    border="0" alt="Unique Visitors"></a>
+                    <i>unique visitors</i> | © Changqian Yu | Last updated: 11/07/2019 </center>
+    </div></div>
 </div>
-
-</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</script>
+</body>
+</html>
