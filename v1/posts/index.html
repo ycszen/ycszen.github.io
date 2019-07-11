@@ -1,0 +1,138 @@
+---
+layout: home
+title: Posts
+---
+
+<div id="posts" class="posts">
+
+  <h1 class="heading">Posts</h1>
+  <ul class="post-list">
+  {% for post in paginator.posts %}
+    <li class="post-item">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <div class="content preview">
+        {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+    <div id="paginator" class="paginate-container flexible-size">
+      <div class="pagination">
+
+        <ul id="pagination-list">
+          {% if paginator.previous_page %}
+            <li class="float-left">
+              <a href="{{ '/posts/index.html' | prepend: site.baseurl | replace: '//', '/' | append: '#paginator' }}"></a>
+            </li>
+            <li class="float-left">
+              <a  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | append: '#paginator' }}"></a>
+            </li>
+          {% else %}
+            <li class="deactive float-left">
+              <a href="#paginator"></a>
+            </li>
+            <li class="deactive float-left">
+              <a href="#paginator"></a>
+            </li>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+
+            {% if page == paginator.page %}
+              <li id="{{page}}" class="page active">
+                <a href="#paginator">{{page}}</a>
+              </li>
+            {% elsif  page == 1 %}
+              <li id="{{page}}" class="page">
+                <a href="{{ '/posts/index.html' | prepend: site.baseurl | replace: '//', '/' | append: '#paginator' }}">{{page}}</a>
+              </li>
+            {% else %}
+              <li id="{{page}}" class="page">
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page | append: '#paginator' }}">{{page}}</a>
+              </li>
+            {% endif %}
+
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <li class="float-right">
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages | append: '#paginator' }} "></a>
+            </li>
+            <li class="float-right">
+              <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | append: '#paginator' }}"></a>
+            </li>
+          {% else %}
+            <li class="deactive float-right">
+              <a href="#paginator"></a>
+            </li>
+            <li class="deactive float-right">
+              <a href="#paginator"></a>
+            </li>
+          {% endif %}
+
+        </ul>
+
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<script charset="utf-8">
+  var pageNum = $(".page").length;
+  // Make different apperance with different screen resolution
+  var onPalm = window.matchMedia( "(min-width: 600px)" );
+  var onLaptop = window.matchMedia( "(min-width: 800px)" );
+
+  if(onLaptop.matches){
+
+    if( parseInt(pageNum) >= 7){
+      // Make all pages hidden
+      $(".page").hide();
+
+      var activeId = $(".active").attr('id');
+      var startId = Math.max(activeId - 3, 1);
+      var endId = startId + 6;
+
+      // First append "..." element before the first visible page if it is
+      // greater than 0
+      if ( startId > 1 ){ $('li#1').before("<li><em>...</em></li>"); }
+
+      // Append "..." element after the last page
+      $('li#'+endId).after("<li><em>...</em></li>");
+
+      // For loop through all visible pages and display them
+      for( var i = startId; i <= endId; i++){ $('li#'+i).show(); }
+    }
+  }
+  else if(onPalm.matches){
+    if( parseInt(pageNum) >= 5){
+      // Make all pages hidden
+      $(".page").hide();
+
+      var activeId = $(".active").attr('id');
+      var startId = Math.max(activeId - 2, 1);
+      var endId = startId + 4;
+
+      // First append "..." element before the first visible page if it is
+      // greater than 0
+      if ( startId > 1 ){ $('li#1').before("<li><em>...</em></li>"); }
+
+      // Append "..." element after the last page
+      $('li#'+endId).after("<li><em>...</em></li>");
+
+      // For loop through all visible pages and display them
+      for( var i = startId; i <= endId; i++){ $('li#'+i).show(); }
+    }
+  }
+</script>

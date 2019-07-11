@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="project">
+
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    <div class='project-contributors'>
+      {% for author in page.authors %} 
+        <div class='project-contributor'><a href="{{author.url}}">{{ author.name }}</a></div>
+      {% endfor %} 
+    </div>
+    <p class="project-meta">{% if page.author %} | {{ page.author }}{% endif %}{% if page.meta %} | {{ page.meta }}{% endif %} | {{ page.date | date: "%b %-d, %Y" }} |</p>
+  </header>
+
+  <article class="project-content">
+    {{ content }}
+  </article>
+</div>

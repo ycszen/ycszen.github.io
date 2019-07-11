@@ -1,0 +1,131 @@
+---
+layout: home
+---
+
+<div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    Biography
+  </h1>
+  <div class="bio-body">
+    <p>
+      {{ site.data.bio.normal.content }}
+      [<strong>
+        <a href='{{ site.data.bio.scholar | prepend: site.baseurl }}'>Google Scholar</a>
+      </strong>]
+      [<strong>
+        <a href='{{ site.data.bio.resume | prepend: site.baseurl }}'>Résumé</a>
+      </strong>]
+    </p>
+    <p>
+      {{ site.data.bio.normal.news }}
+    </p>
+    <p>
+      {{ site.data.bio.normal.competitions }}
+    </p>
+    <p>
+      {{ site.data.bio.normal.professional-activities }}
+    </p>
+  </div>
+</div>
+
+
+<div id="timeline" class="timeline-brief">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    Timeline
+  </h1>
+
+  <div class="timeline-body">
+    {% for experience in site.data.experiences %}
+    {% if experience.brief == true %}
+    <div class="timeline-item">
+      <div class="timeline-date">
+        {{ experience.date }}
+      </div>
+      <div class="timeline-title">
+        {{ experience.title }}
+      </div>
+      <div class="timeline-desc">
+        {{ experience.desc }}
+      </div>
+      {% unless experience.host == false %}
+      <div class="timeline-host">
+        {{ experience.host.role }}: {{ experience.host.name }}
+      </div>
+      {% endunless %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="button">
+    <h1 class="sm-heading text-center">
+      <a href="{{ '/timeline/#timeline' | prepend: site.baseurl }}">
+        <i class="fa fa-info-circle"></i>
+      </a>
+    </h1>
+  </div>
+</div>
+
+<div id="publications" class="publications">
+  <h1 class="md-heading text-center">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Selected Publications
+  </h1>
+
+  <div class="pub-list">
+  {% for publication in site.data.publications %}
+  {% if publication.selected %}
+    <div class="pub">
+      <div class="pub-left">
+        <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          {{ publication.title }}
+        </div>
+        <div class="authors">
+          {% for author in publication.authors %}
+            <a class="author" href="{{ author.url }}">
+              {{ author.name | prepend: ' '}}
+              {% if author.equal_contribution %}* {% endif %}
+            </a>
+            {% if forloop.last == false %},{% endif %}
+          {% endfor %}
+        </div>
+        <div class="desc">
+          <p>
+          {% if publication.desc contains '<!--more-->' %}
+            {{ publication.desc | split:'<!--more-->' | first }}
+          {% else %}
+            {{ publication.desc }}
+          {% endif %}
+          </p>
+        </div>
+        <div class="publish">
+          <span class="publisher">{{ publication.publisher }}</span>
+          <span class="status">{{ publication.status }}</span>
+          <span class="place">{{ publication.place }}</span>
+        </div>
+        <div class="tags">
+          {% for tag in publication.tags %}
+          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+  </div>
+
+  <div class="button">
+    <h1 class="sm-heading text-center">
+      <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
+        <i class="fa fa-info-circle"></i> All Publications
+      </a>
+    </h1>
+  </div>
+</div>
+
+</div>

@@ -1,0 +1,45 @@
+name:       "Changqian Yu"
+title:      "PH.D. Student @ HUST"
+email:      "changqian_yu@hust.edu.cn"
+head_pic:   /images/self-portrait/ycq.jpg
+resume:     "/source/pdf/resume/yuchangqian.pdf"
+scholar:    "https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en"
+normal:
+  date:     "Jun. 2018"
+  title:    ""
+  content:  "I am a first-year PH.D. student majoring in Computer Vision at 
+          <strong>Huazhong University of Science and Technology</strong>, supervised 
+          by <a href='https://sites.google.com/site/changxingao/'>A.P. Changxin Gao</a>
+          and <a href='http://auto.hust.edu.cn/info/1154/3414.htm'>Prof. Nong Sang</a>.
+          I received the <strong>China National Scholarship</strong> in 2018. Before that, I received 
+          my B.S. degree from <strong>Shandong University</strong> in 2016.<br><br>
+
+          I was a visiting student at the <strong>Australian Institute for Machine Learning</strong> 
+          of the <strong>University of Adelaide</strong>, supervised by
+          <a href='https://cs.adelaide.edu.au/~chhshen/'>Prof. Chunhua Shen</a>.
+          Before that, I was a research intern at <strong>Megvii (Face++) Inc.</strong> 
+          mentored by <a href='http://www.skicyyu.org/'>Dr. Gang Yu</a> and 
+          supervised by <a href='http://www.jiansun.org/'>Dr. Jian Sun</a>.<br><br>
+
+          My research interests focus on <strong>Computer Vision</strong> and 
+          <strong>Artificial Intelligence</strong>, specifically on the topic 
+          of <strong>Segmentation</strong>.<br>"
+  news:     "<h2>News</h2>
+          <strong>[Mar. 2019]</strong> Our paper <a href='https://arxiv.org/pdf/1903.05027.pdf'>OANet</a> is accepted to <a href='http://cvpr2019.thecvf.com/'>CVPR2019</a> in Long Beach, California! <br>
+          <strong>[Jan. 2019]</strong> I have released the project <a href='https://github.com/ycszen/TorchSeg'>TorchSeg</a> which contains the source code of <a href='https://arxiv.org/abs/1804.09337'>DFN</a> and <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a>.</br>
+          <strong>[Sep. 2018]</strong> As a team member of Megvii(Face++) and R4D Team, we won the <strong>1st place</strong> of COCO Panoptic Segmentation and Mapillary Panoptic Segmentation in the <a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>COCO & Mapillary Panoptic Segmentation Challenge 2018</a>. I was invited to present at COCO & Mapillary Joint Workshop at <a href='https://eccv2018.org/'>ECCV2018</a> in Munich, Germany.
+          [<a href='https://mp.weixin.qq.com/s/K36j2JcTWPV1velUqyy6pA'><strong>ChinaNews</strong></a>]</br>
+          <strong>[Jul. 2018]</strong> Our paper <a href='https://arxiv.org/abs/1808.00897'>BiSeNet</a> is accepted to <a href='https://eccv2018.org/'>ECCV2018</a> in München, Germany!<br>
+          <strong>[Apr. 2018]</strong> I have presented my poster on the <a href='http://ice.dlut.edu.cn/valse2018/index.html'>Vision and Learning Seminar(VALSE2018)</a> in Dalian, LiaoNing Province, China. <br>
+          <strong>[Feb. 2018]</strong> Our paper <a href='https://arxiv.org/abs/1804.09337'>DFN</a> is accepted to <a href='http://cvpr2018.thecvf.com/'>CVPR2018</a> in Salt Lake City, Ultah State! <br>
+          <strong>[Jul. 2017]</strong> I joined Megvii (Face++) as a Research Intern. During the time, I mainly researched on the topic of <strong>Segmentation</strong>. <br>"
+  competitions: "<h2>Competitions</h2>
+          <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of COCO 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
+          <li><a href='http://cocodataset.org/workshop/coco-mapillary-eccv-2018.html'>No.1 of Mapillary 2018 Challenge in Panoptic Segmentation Track 2018</a> </li>
+          <li><a href='http://cvit.iiit.ac.in/scene-understanding-challenge-2018/benchmarks.php'>No.5 of Scene Understanding Challenge for Autonomous Navigation in Unstructured Environments</a></li>"
+  professional-activities: "<h2>Professional Activities</h2>
+          <li>Conference Reviewer: CVPR2019, ICCV2019.</li>
+          <li>MSRA VCG talk: 'Context in Semantic Segmentation', 2019</li>
+          <li>ECCV2018 COCO & Mapillary Joint Workshop talk: 'MSCOCO & Mapillary Panoptic Segmentation Challenge 2018', 2018</li>"
+
+        

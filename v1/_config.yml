@@ -1,0 +1,58 @@
+# Site settings
+title: Changqian Yu
+description:
+  en: "This is an academic website for Changqian Yu to share his experiences, projects, publications and tech/non-tech posts. Changqian Yu is a Ph.D. student at Huazhong University of Science and Technology(HUST), working with Prof. Nong Sang. His research interests focus on the field of Deep Learning and Computer Vision, particularly in the topic of semantic segmentation. "
+  cn: "这是余昌黔的个人学术主页，用于分享他的个人经历，项目，学术论文，技术相关/不相关的博客。"
+keywords:
+  en: "Changqian Yu,Publications,Posts,Research,Deep Learning,Computer Vision,Semantic Segmentation"
+  cn: "余昌黔,学术论文,博客,研究,深度学习,计算机视觉,图像语义分割"
+background: /images/background/starnight.png
+# deep_background: /images/background/background-deepcube-2.jpg
+
+baseurl: ""
+# the subpath of your site, e.g. /blog/
+url: "https://ycszen.github.io"
+# the base hostname & protocol for your sit
+
+# Paginationœ
+paginate: 6
+paginate_path: "/posts/page/:num/"
+
+# Build settings
+markdown: kramdown
+# permalink setting
+permalink: pretty
+# highlighter: rouge
+highlighter: rouge
+
+# Social media link for the site
+social:
+  github:     ycszen
+  zhihu:      yu-chang-qian/posts
+  linkedin:   changqian-yu-82189ba6    
+
+link:
+  "<a href='http://www.skicyyu.org/'>俞刚(Yu Gang)</a> 
+   <a href='http://www.pengchao.org/'>彭超(Peng Chao)</a><br>
+   <a href='http://www.zemingli.com/'>黎泽明(Li Zeming)</a>
+   <a href='http://wangjingbo.top/'>王靖博(Wang Jingbo)</a><br>
+   <a href='https://www.sshao.com/'>邵帅(Shao Shuai)</a>"
+
+theme:
+  canvas_nest: true
+
+# google_analytics_token: "UA-60071442-1"
+# google_tags_token: "GTM-K5ZTMW"
+
+
+# customized document resources
+collections:
+  projects:
+    output: true
+
+scss:
+  sass_dir: _scss
+  style: :compressed
+
+gems:
+  ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']

@@ -1,0 +1,113 @@
+
+.publications {
+  max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
+  max-width:        calc(100% - (#{$spacing-unit} / 2));
+  margin-top:       #{$spacing-unit};
+  font-family:      'Roboto',sans-serif, Helvetica;
+}
+
+.pub-list {
+  overflow:         auto;
+}
+
+.pub {
+  border-top:     thin solid #c0c0c0;
+  radius:         15px;
+  float:          left !important;
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
+  margin-top:     #{$spacing-unit};
+  padding-top:    #{$spacing-unit};
+  overflow:       auto;
+}
+
+.pub-left {
+  float:         left;
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
+  text-align:    center;
+  margin-left:   auto;
+  margin-right:  auto;
+}
+
+.pub-left > .intro-img {
+  width:          280px;
+  border-style:   solid;
+  border-color:   $red-color-dark;
+}
+
+.pub-left > .frame {
+}
+
+.pub-right {
+  float:         right;
+  width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+  width:         calc(75% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .pub-left,
+  .pub-right {
+    float:         none;
+    margin:        10px auto;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .pub {
+    position:   relative;
+    margin:     10px auto;
+    float:      none;
+    width: -webkit-calc( 100% - (#{$spacing-unit} / 2));
+    width:         calc( 100% - (#{$spacing-unit} / 2));
+  }
+
+}
+
+.pub-right > .title {
+  font-weight:  600;
+}
+
+.pub-right > .authors > .author {
+  color:          $blue-color;
+  font-weight:    400;
+}
+
+.pub-right > .tags > .tag {
+  color:          $red-color-dark;
+  font-weight:    500;
+  font-size:      14px;
+}
+
+.pub-right > .desc > p {
+  margin: auto;
+}
+
+.pub-right > .publish {
+  float: right;
+}
+
+.pub-right > .publish > .publisher {
+  color:          $blue-color-dark;
+  font-size:      16px;
+}
+
+.pub-right > .publish > .status {
+  color:          $red-color-dark;
+  font-weight:    800;
+  font-size:      16px;
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+.pub-right > .publish > .place {
+  color:          $blue-color;
+  font-weight:    500;
+  font-size:      16px;
+  @include media-query($on-palm) {
+    display: none;
+  }
+}

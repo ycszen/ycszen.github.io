@@ -1,0 +1,81 @@
+.posts {
+  max-width:        -webkit-calc(96% - (#{$spacing-unit} / 2));
+  max-width:        calc(96% - (#{$spacing-unit} / 2));
+  margin-top:       #{$spacing-unit};
+  margin-left:      auto;
+  margin-right:     auto;
+  @include media-query($on-palm) {
+    max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
+    max-width:        calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-item {
+  border-top: thin solid #c0c0c0;
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+
+
+/**
+* Posts
+*/
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 26px;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}

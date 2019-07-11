@@ -1,0 +1,185 @@
+
+// Counter
+@mixin display-child($n) {
+   @for $i from 2 through $n {
+     &:nth-child(#{$i}) {
+       a {
+         display: inline-block;
+       }
+     }
+   }
+}
+
+li.float-right{
+  float:right;
+}
+
+li.float-left {
+  float:left;
+}
+
+div.paginate-container {
+  background:     $background-color;
+  padding:        1rem;
+  margin-top:     3rem;
+  border-radius:  0.2rem;
+  text-align:     center;
+
+  width:          -webkit-calc(100% - 2rem);
+  width:          calc(100% - 2rem);
+
+  ul {
+    width: 100%;
+    margin: 0px;
+    padding-left: 0px;
+  }
+}
+
+.pagination > ul,
+.pagination > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.pagination > ul > li {
+  &:hover {
+    a {
+      color: lighten($background-color, 5%);
+      background-color: $grey-color-dark;
+      border: solid 1px $grey-color-dark;
+    }
+  }
+  &.active {
+    a {
+      color: lighten($background-color, 5%);
+      background-color: $grey-color-dark;
+      border: solid 1px $grey-color-dark;
+    }
+  }
+  &.deactive {
+    a {
+      background-color: $grey-color-light;
+      border: solid 1px $white-color-dark;
+    }
+  }
+  a {
+    border: solid 1px darken($background-color, 10%);
+    border-radius: 0.2rem;
+    color: darken($background-color, 45%);
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+  }
+  em {
+    border: solid 1px darken($background-color, 10%);
+    border-radius: 0.2rem;
+    color: darken($background-color, 45%);
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+  }
+}
+
+
+div.paginate-container {
+
+  li {
+    &:first-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "First page";
+      }
+    }
+    @include display-child(12);
+    &:nth-child(2) {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "<";
+      }
+    }
+    &:last-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: ">";
+      }
+    }
+    &:nth-last-child(2) {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "Last page";
+      }
+    }
+  }
+
+  @include media-query($on-laptop) {
+    li {
+      &:first-child {
+        display: inline-block;
+        a:after {
+          content: "First";
+        }
+      }
+      &:nth-child(2) {
+        display: inline-block;
+        a:after {
+          content: "<";
+        }
+      }
+      &:last-child {
+        display: inline-block;
+        a:after {
+          content: ">";
+        }
+      }
+      &:nth-last-child(2) {
+        display: inline-block;
+        a:after {
+          content: "Last";
+        }
+      }
+    }
+  }
+
+  @include media-query($on-palm) {
+    li {
+      display: none;
+      @include display-child(5);
+      &.active {
+        display: inline;
+      }
+      &:first-child {
+        display: inline;
+        a:after {
+          content: "First";
+         }
+      }
+      &:nth-last-child(2) {
+        display: inline;
+        a:after {
+          content: "Last";
+        }
+      }
+      &:nth-child(2) {
+        display: inline;
+        a:after {
+          content: "<";
+        }
+      }
+      &:last-child {
+        display: inline;
+        a:after {
+          content: ">";
+        }
+      }
+    }
+  }
+}
