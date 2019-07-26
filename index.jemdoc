@@ -74,7 +74,7 @@ specifically on the topic of Segmentation.
     \[[https://arxiv.org/abs/1903.05027 Paper]\]
 - [https://arxiv.org/abs/1808.00897 *BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation*]\n
     *Changqian Yu\**, Jingbo Wang\*, Chao Peng, Changxin Gao, Gang Yu, Nong Sang\n
-    /European Conference on Computer Vision/ (*ECCV*), 2019.\n
+    /European Conference on Computer Vision/ (*ECCV*), 2018.\n
     \[[https://arxiv.org/abs/1808.00897 Paper]\]\[[https://github.com/ycszen/TorchSeg Code]\]\[[source/pdf/poster/bisenet_eccv18_poster.pdf Poster]\]\[[https://mp.weixin.qq.com/s/520WqCIs_kf3p1RAyqbEcg ChinaNews]\]
 - [https://arxiv.org/abs/1804.09337 *Learning a Discriminative Feature Network for Semantic Segmentation*]\n
     *Changqian Yu*, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang\n
