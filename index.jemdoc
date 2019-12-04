@@ -25,6 +25,7 @@ Email: [mailto:changqian_yu@hust.edu.cn changqian_yu \[at\] hust.edu.cn]
     <a href="https://github.com/ycszen"><img src="imgs/icon/color-github.png" height="40px"></a>
     <a href="https://www.zhihu.com/people/yu-chang-qian/posts"><img src="imgs/icon/grey-zhihu.png" height="40px"></a>
     <a href="https://www.linkedin.com/in/changqian-yu-82189ba6/"><img src="imgs/icon/color-linkedin.png" height="40px"></a>
+    <a href="http://changqianyu.me/blog">Blog</a>
 </p>}}
 {{</center>}}
 ~~~
@@ -35,7 +36,7 @@ Email: [mailto:changqian_yu@hust.edu.cn changqian_yu \[at\] hust.edu.cn]
 ~~~
 
 == Biography \{[source/pdf/resume/ChangqianYu.pdf CV]\}
-I am a first-year PH.D. student majoring in Computer Vision at [http://www.hust.edu.cn/ 
+I am a first-year Ph.D. student majoring in Computer Vision at [http://www.hust.edu.cn/ 
 Huazhong University of Science and Technology], supervised  by 
 [https://sites.google.com/site/changxingao/ A.P. Changxin Gao]
 and [http://auto.hust.edu.cn/info/1154/3414.htm Prof. Nong Sang].
@@ -47,14 +48,15 @@ Australian Institute for Machine Learning]
 of the [https://www.adelaide.edu.au/ University of Adelaide], supervised by 
 [https://cs.adelaide.edu.au/~chhshen/ Prof. Chunhua Shen].
 Before that, I was a research intern at [https://megvii.com/ Megvii(Face\+\+) 
-Research] mentored by [http://www.skicyyu.org/ Dr. Gang Yu] and supervised by 
-[http://www.jiansun.org/ Dr. Jian Sun].
+Research] mentored by [http://www.skicyyu.org/ Dr Gang Yu] and supervised by 
+[http://www.jiansun.org/ Dr Jian Sun].
 
 My research interests focus on Computer Vision and Artificial Intelligence, 
 specifically on the topic of Segmentation.
 
 
 == News
+- \[Oct. 2019\] Our paper GTNet is accepted to [https://aaai.org/Conferences/AAAI-20/, AAAI2020] in New York, New York.
 - \[Jun. 2019\] I become a visiting student at the [https://www.adelaide.edu.au/aiml/home Australian Institute for Machine Learning] of the University of Adelaide, supervised by 
 [https://cs.adelaide.edu.au/~chhshen/ Prof. Chunhua Shen]. 
 - \[Mar. 2019\] Our paper [https://arxiv.org/pdf/1903.05027.pdf OANet] is accepted to [http://cvpr2019.thecvf.com CVPR2019] in Long Beach, California!
@@ -68,6 +70,9 @@ specifically on the topic of Segmentation.
 
 == Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
 \* below indicates equal contribution
+- *GTNet: Generative Transfer Network for Zero-Shot Object Detection*\n
+    Shizhen Zhao, Changxin Gao, Yuanjie Shao, Lerenhan Li, *Changqian Yu*, Zhong Ji, Nong Sang\n
+    /The Thirty-Fourth AAAI Conference on Artificial Intelligence/ (*AAAI*), 2020.\n
 - [https://arxiv.org/abs/1903.05027 *An End-to-End Network for Panoptic Segmentation*]\n
     Huanyu Liu, Chao Peng, *Changqian Yu*, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang\n
     /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2019.\n
@@ -80,6 +85,10 @@ specifically on the topic of Segmentation.
     *Changqian Yu*, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang\n
     /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2018.\n
     \[[https://arxiv.org/abs/1804.09337 Paper]\]\[[https://github.com/ycszen/TorchSeg Code]\]\[[source/pdf/poster/dfn_cvpr18_poster.pdf Poster]\]\[[https://mp.weixin.qq.com/s/4csAftUmJErdA4qn26mO3Q ChinaNews]\]
+- [https://link.springer.com/chapter/10.1007/978-3-030-31723-2_24 *Graph-Based Scale-Aware Network for Human Parsing*]\n
+    Beibei Yang, *Changqian Yu*, Jiahui Liu, Changxin Gao, Nong Sang\n
+    /Chinese Conference on Pattern Recognition and Computer Vision/ (*PRCV*), 2019.\n
+    \[[https://link.springer.com/chapter/10.1007/978-3-030-31723-2_24 Paper]\]
 - [https://ieeexplore.ieee.org/document/8451045 *Spatially Attentive Correlation Filters for Visual Tracking*]\n
     Huai Qin, Zhixiong Pi, *Changqian Yu*, Changxin Gao, Jin-Gang Yu, Nong Sang\n
     /IEEE International Conference on Image Processing/ (*ICIP*), 2018.\n
@@ -97,7 +106,8 @@ specifically on the topic of Segmentation.
 - {{<div style="float:left; text-align:left"><a href="https://https://megvii.com/">Megvii(Face++) Research</a>, Beijing, China</div> 
     <div style="float:right; text-align:right">Jul. 2017 – Jun. 2019</div> }}\n
     Computer Vision Research Intern \n
-    Advisor: [http://www.skicyyu.org/ Dr. Gang Yu] and [http://www.jiansun.org/ Dr. Jian Sun] \n
+    Mentor: [http://www.skicyyu.org/ Dr Gang Yu] \n
+    Supervisor: [http://www.jiansun.org/ Dr Jian Sun] \n
 
 == Academic Competetion
 - {{<div style="float:left; text-align:left"> <strong>Winner</strong> of COCO 2018 Challenge in Panoptic Segmentation Track </div>
@@ -142,6 +152,7 @@ specifically on the topic of Segmentation.
     IEEE International Conference on Computer Vision (ICCV) 2019. \n
     Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI) 2020. \n
     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020. \n
+    European Conference on Computer Vision (ECCV) 2020. \n
 - Microsoft Research Asia (MSRA) VCG talk: "Context in Semantic Segmentation", 2019
 - ECCV2018 COCO \& Mapillary Joint Workshop talk: "MSCOCO \& Mapillary Panoptic Segmentation
 Challenge 2018", 2018
