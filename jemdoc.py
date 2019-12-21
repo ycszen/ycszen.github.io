@@ -31,7 +31,7 @@ from subprocess import *
 import tempfile
 
 def info():
-  print __doc__
+  print  __doc__
   print 'Platform: ' + sys.platform + '.'
   print 'Python: %s, located at %s.' % (sys.version[:5], sys.executable)
   print 'Equation support:',
