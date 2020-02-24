@@ -72,9 +72,13 @@ specifically on the topic of Segmentation.
 
 == Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
 \* below indicates equal contribution
-- *GTNet: Generative Transfer Network for Zero-Shot Object Detection*\n
+- *Context Prior for Scene Segmentation*\n
+    *Changqian Yu*, Jingbo Wang, Changxin Gao, Gang Yu, Chunhua Shen, Nong Sang\n
+    /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2020.\n
+- [https://arxiv.org/abs/2001.06812 *GTNet: Generative Transfer Network for Zero-Shot Object Detection*]\n
     Shizhen Zhao, Changxin Gao, Yuanjie Shao, Lerenhan Li, *Changqian Yu*, Zhong Ji, Nong Sang\n
     /The Thirty-Fourth AAAI Conference on Artificial Intelligence/ (*AAAI*), 2020.\n
+    \[[https://arxiv.org/abs/2001.06812 Paper]\]
 - [https://arxiv.org/abs/1903.05027 *An End-to-End Network for Panoptic Segmentation*]\n
     Huanyu Liu, Chao Peng, *Changqian Yu*, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang\n
     /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2019.\n
