@@ -73,6 +73,9 @@ specifically on the topic of Segmentation.
 
 == Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
 \* below indicates equal contribution
+- [https://arxiv.org/abs/2002.11433 *Efficient Semantic Video Segmentation with Per-frame Inference*]\n
+    Yifan Liu, Chunhua Shen, *Changqian Yu*, Jingdong Wang\n
+    \[[https://arxiv.org/abs/2002.11433 Paper]\]
 - *Context Prior for Scene Segmentation*\n
     *Changqian Yu*, Jingbo Wang, Changxin Gao, Gang Yu, Chunhua Shen, Nong Sang\n
     /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2020.\n
