@@ -73,10 +73,10 @@ specifically on the topic of Segmentation.
 
 == Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
 \* below indicates equal contribution
-- *ASNet: Aggregated Scale Transformations for Real-Time Semantic Segmentation*
+- *ASNet: Aggregated Scale Transformations for Real-Time Semantic Segmentation*\n
   *Changqian Yu\**, Chaoqun Wang\*, Depu Meng\*, Nong Sang, Xuejin Chen, Houqiang Li, Jingdong Wang\n
   /In Submission/
-- *Representative Graph Neural Network*
+- *Representative Graph Neural Network*\n
   *Changqian Yu*, Yifan Liu, Changxin Gao, Chunhua Shen, Nong Sang\n
   /In Submission/
 - *BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation* \n
