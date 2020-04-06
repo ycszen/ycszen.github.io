@@ -75,16 +75,16 @@ specifically on the topic of Segmentation.
 \* below indicates equal contribution
 - *ASNet: Aggregated Scale Transformations for Real-Time Semantic Segmentation*\n
   *Changqian Yu\**, Chaoqun Wang\*, Depu Meng\*, Nong Sang, Xuejin Chen, Houqiang Li, Jingdong Wang\n
-  /In Submission/
+  /In Submission./
 - *Representative Graph Neural Network*\n
   *Changqian Yu*, Yifan Liu, Changxin Gao, Chunhua Shen, Nong Sang\n
-  /In Submission/
+  /In Submission./
 - *BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation* \n
    *Changqian Yu*, Changxin Gao, Jingbo Wang, Gang Yu, Chunhua Shen, Nong Sang\n
-   /In Submission/
+   /In Submission./
 - [https://arxiv.org/abs/2002.11433 *Efficient Semantic Video Segmentation with Per-frame Inference*]\n
     Yifan Liu, Chunhua Shen, *Changqian Yu*, Jingdong Wang\n
-    /In Submission/
+    /In Submission./\n
     \[[https://arxiv.org/abs/2002.11433 Paper]\]
 - [https://arxiv.org/abs/2004.01547 *Context Prior for Scene Segmentation*]\n
     *Changqian Yu*, Jingbo Wang, Changxin Gao, Gang Yu, Chunhua Shen, Nong Sang\n
