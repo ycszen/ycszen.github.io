@@ -55,6 +55,11 @@ Research] for two years mentored by [http://www.skicyyu.org/ Dr Gang Yu] and sup
 My research interests focus on Computer Vision and Artificial Intelligence, 
 specifically on the topic of Segmentation.
 
+~~~
+<p style='color:red;'> Highly optimized PyTorch codebases for semantic segmentation is available at </p>[https://github.com/ycszen/TorchSeg TorchSeg].
+
+<p style='color:red;'> I am available on the job market. Please feel free to contact me through the email. </p>
+~~~
 
 == News
 - \[Feb. 2020\] Our paper CPN is accepted ot [http://cvpr2020.thecvf.com/, CVPR2020] in Seattle, Washington.
@@ -79,9 +84,10 @@ specifically on the topic of Segmentation.
 - *Representative Graph Neural Network*\n
   *Changqian Yu*, Yifan Liu, Changxin Gao, Chunhua Shen, Nong Sang\n
   /In Submission./
-- *BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation* \n
+- [https://arxiv.org/abs/2004.02147 *BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation*] \n
    *Changqian Yu*, Changxin Gao, Jingbo Wang, Gang Yu, Chunhua Shen, Nong Sang\n
-   /In Submission./
+   /In Submission./\n
+   \[[https://arxiv.org/abs/2004.02147 Paper]\]\[[https://github.com/ycszen/BiSeNet Code]\]
 - [https://arxiv.org/abs/2002.11433 *Efficient Semantic Video Segmentation with Per-frame Inference*]\n
     Yifan Liu, Chunhua Shen, *Changqian Yu*, Jingdong Wang\n
     /In Submission./\n
