@@ -152,43 +152,51 @@ specifically on the topic of Segmentation.
 - {{<div style="float:left; text-align:left"> No.2 of Momenta Lane Detection Challenge </div>
     <div style="float:right; text-align:right">2018</div> }} \n
 
-== Honors & Awards
-- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
-    <div style="float:right; text-align:right">2019</div> }} \n
-- {{<div style="float:left; text-align:left">  <strong>National Scholarship</strong>, Ministry of Education of P.R. China </div>
-    <div style="float:right; text-align:right">2018</div> }} \n
-- {{<div style="float:left; text-align:left"> Merit Student, Huazhong University of Science and Technology </div>
-    <div style="float:right; text-align:right">2018</div> }} \n
-- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
-    <div style="float:right; text-align:right">2018</div> }} \n
-- {{<div style="float:left; text-align:left"> Graduate Knowledge and Excellence Scholarship, Huazhong University of Science and Technology </div>
-    <div style="float:right; text-align:right">2017</div> }} \n
-- {{<div style="float:left; text-align:left">Second Class Prize, National University Student Social Practice and Science Contest on 
-    Energy Saving & </br> Emission Reduction</div>
-    <div style="float:right; text-align:right">2015</div> }} \n\n
-- {{<div style="float:left; text-align:left"> Outstanding Student Cadre, Shandong University </div>
-    <div style="float:right; text-align:right">2014</div> }} \n
-- {{<div style="float:left; text-align:left"> Innovative Entrepreneurial Activities Advanced Individuals, Shandong University </div>
-    <div style="float:right; text-align:right">2014</div> }} \n
-- {{<div style="float:left; text-align:left"> First Class Prize, "RoboCup" Open Finals and China Robot Competition </div>
-    <div style="float:right; text-align:right">2014</div> }} \n
-- {{<div style="float:left; text-align:left">Second Class Prize, National College Students Innovation and Entrepreneurship Training Program </div>
-    <div style="float:right; text-align:right">2014</div> }} \n
-- {{<div style="float:left; text-align:left">Second Class Prize, Shandong Province College Students "TI Cup" Electronic Design Competition </div>
-    <div style="float:right; text-align:right">2014</div> }} \n
-- {{<div style="float:left; text-align:left">“Weichai Power” Scholarship, Shandong University </div>
-    <div style="float:right; text-align:right">2013</div> }} \n
-
 == Professional Activities
+- Microsoft Research Asia (MSRA) VCG talk: "Context in Semantic Segmentation", 2019
+- ECCV2018 COCO \& Mapillary Joint Workshop talk: "MSCOCO \& Mapillary Panoptic Segmentation
+Challenge 2018", 2018
 - Conference Reviewer: \n
 : {} IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019. \n
     IEEE International Conference on Computer Vision (ICCV) 2019. \n
     Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI) 2020. \n
     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020. \n
     European Conference on Computer Vision (ECCV) 2020. \n
-- Microsoft Research Asia (MSRA) VCG talk: "Context in Semantic Segmentation", 2019
-- ECCV2018 COCO \& Mapillary Joint Workshop talk: "MSCOCO \& Mapillary Panoptic Segmentation
-Challenge 2018", 2018
+- Journal Reviewer: \n
+: {} IEEE Transactions on Image Processing (TIP). \n
+
+== Honors & Awards
+- {{<div style="float:left; text-align:left"> <strong>State Scholarship for Study Abroad</strong>, China Scholarship Council of P.R. China (国家建设高水平大学公派研究生奖学金) </div>
+    <div style="float:right; text-align:right">2019</div> }} \n
+- {{<div style="float:left; text-align:left"> Short-term Study Abroad Scholarship for Postgraduates, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left">  <strong>National Scholarship</strong>, Ministry of Education of P.R. China </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> Merit Student, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2019</div> }} \n
+- {{<div style="float:left; text-align:left"> "Hewang" Electric Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2018</div> }} \n
+- {{<div style="float:left; text-align:left"> Graduate Knowledge and Excellence Scholarship, Huazhong University of Science and Technology </div>
+    <div style="float:right; text-align:right">2017</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, National University Student Social Practice and Science Contest on 
+    Energy Saving & </br> Emission Reduction</div>
+    <div style="float:right; text-align:right">2015</div> }} \n
+- {{<div style="float:left; text-align:left"> First Class Prize, "RoboCup" Open Finals and China Robot Competition </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, National College Students Innovation and Entrepreneurship Training Program </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">Second Class Prize, Shandong Province College Students "TI Cup" Electronic Design Competition </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left"> Innovative Entrepreneurial Activities Advanced Individuals, Shandong University </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left"> Outstanding Student Cadre, Shandong University </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left"> Second Class Prize, Outstanding Students, Shandong University </div>
+    <div style="float:right; text-align:right">2014</div> }} \n
+- {{<div style="float:left; text-align:left">“Weichai Power” Scholarship, Shandong University </div>
+    <div style="float:right; text-align:right">2013</div> }} \n
 
 
 ~~~
