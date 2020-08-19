@@ -35,7 +35,7 @@ Email: [mailto:changqian_yu@hust.edu.cn changqian_yu \[at\] hust.edu.cn]
 ~~~
 
 == Biography \{[source/pdf/resume/ChangqianYu.pdf CV]\}
-I am a second-year Ph.D. student majoring in Computer Vision at [http://www.hust.edu.cn/ 
+I am a fourth-year Ph.D. student majoring in Computer Vision at [http://www.hust.edu.cn/ 
 Huazhong University of Science and Technology], supervised  by 
 [https://sites.google.com/site/changxingao/ A.P. Changxin Gao]
 and [http://auto.hust.edu.cn/info/1154/3414.htm Prof. Nong Sang].
@@ -63,7 +63,8 @@ specifically on the topic of Segmentation.
 ~~~
 
 == News
-- \[Feb. 2020\] Our paper CPN is accepted ot [http://cvpr2020.thecvf.com/, CVPR2020] in Seattle, Washington.
+- \[Jul. 2020\] Two papers have been accepted to [https://eccv2020.eu/, ECCV2020].
+- \[Mar. 2020\] Our paper CPN is accepted to [http://cvpr2020.thecvf.com/, CVPR2020] in Seattle, Washington.
 - \[Dec. 2019\] I join [https://www.microsoft.com/en-us/research/group/visual-computing/ Visual Computing Group], [https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/?from=http%3A%2F%2Fresearch.microsoft.com%2Fasia%2F Microsoft Research Asia] as a Research Intern, supervised by [https://jingdongwang2017.github.io/ Dr Jingdong Wang].
 - \[Oct. 2019\] Our paper GTNet is accepted to [https://aaai.org/Conferences/AAAI-20/, AAAI2020] in New York, New York.
 - \[Jun. 2019\] I become a visiting student at the [https://www.adelaide.edu.au/aiml/home Australian Institute for Machine Learning] of the University of Adelaide, supervised by 
@@ -89,6 +90,7 @@ specifically on the topic of Segmentation.
 - *Representative Graph Neural Network*\n
   *Changqian Yu*, Yifan Liu, Changxin Gao, Chunhua Shen, Nong Sang\n
   /European Conference on Computer Vision/ (*ECCV*), 2020.\n
+  \[[https://arxiv.org/abs/2008.05202 Paper]\]\[[https://github.com/ycszen/RepGraph Code]\]
 - [https://arxiv.org/abs/2002.11433 *Efficient Semantic Video Segmentation with Per-frame Inference*]\n
     Yifan Liu, Chunhua Shen, *Changqian Yu*, Jingdong Wang\n
     /European Conference on Computer Vision/ (*ECCV*), 2020.\n
@@ -129,7 +131,7 @@ specifically on the topic of Segmentation.
 == Experience
 - {{<div style="float:left; text-align:left"><a href="https://www.microsoft.com/en-us/research/group/visual-computing/">Visual Computing Group</a>, 
     <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/?from=http%3A%2F%2Fresearch.microsoft.com%2Fasia%2F">Microsoft Research Asia</a>, Beijing, China</div>  
-    <div style="float:right; text-align:right">Dec. 2019 – Mar. 2020</div> }}\n 
+    <div style="float:right; text-align:right">Dec. 2019 – Present </div> }}\n 
     Research Intern \n 
     Mentor: [https://jingdongwang2017.github.io/ Dr Jingdong Wang] \n
 - {{<div style="float:left; text-align:left"><a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a>, 
@@ -163,6 +165,7 @@ Title: "MSCOCO \& Mapillary Panoptic Segmentation Challenge 2018", 2018
     Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI) 2020. \n
     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020. \n
     European Conference on Computer Vision (ECCV) 2020. \n
+    Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI) 2021. \n
 : {- Journal Reviewer:}
     IEEE Transactions on Image Processing (TIP). \n
 
