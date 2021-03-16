@@ -63,6 +63,7 @@ specifically on the topic of Segmentation.
 ~~~
 
 == News
+- \[Mar. 2021\] One papers have been accepted to [http://cvpr2021.thecvf.com/, CVPR2021].
 - \[Jul. 2020\] Two papers have been accepted to [https://eccv2020.eu/, ECCV2020].
 - \[Mar. 2020\] Our paper CPN is accepted to [http://cvpr2020.thecvf.com/, CVPR2020] in Seattle, Washington.
 - \[Dec. 2019\] I join [https://www.microsoft.com/en-us/research/group/visual-computing/ Visual Computing Group], [https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/?from=http%3A%2F%2Fresearch.microsoft.com%2Fasia%2F Microsoft Research Asia] as a Research Intern, supervised by [https://jingdongwang2017.github.io/ Dr Jingdong Wang].
@@ -80,9 +81,9 @@ specifically on the topic of Segmentation.
 
 == Publications \{[https://scholar.google.com/citations?user=Hv-vj2sAAAAJ&hl=en Google Scholar]\}
 \* below indicates equal contribution
-- *ASNet: Aggregated Scale Transformations for Real-Time Semantic Segmentation*\n
-  *Changqian Yu\**, Chaoqun Wang\*, Depu Meng\*, Nong Sang, Xuejin Chen, Houqiang Li, Jingdong Wang\n
-  /In Submission./
+- *Lite-HRNet:A Lightweight High-Resolution Network*\n
+  *Changqian Yu*, Bin, Xiao, Changxin Gao, Lu Yuan, Lei Zhang, Nong Sang, Jingdong Wang\n
+  /IEEE Conference on Computer Vision and Pattern Recognition/ (*CVPR*), 2021.\n
 - [https://arxiv.org/abs/2004.02147 *BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation*] \n
    *Changqian Yu*, Changxin Gao, Jingbo Wang, Gang Yu, Chunhua Shen, Nong Sang\n
    /In Submission./\n
@@ -131,7 +132,7 @@ specifically on the topic of Segmentation.
 == Experience
 - {{<div style="float:left; text-align:left"><a href="https://www.microsoft.com/en-us/research/group/visual-computing/">Visual Computing Group</a>, 
     <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/?from=http%3A%2F%2Fresearch.microsoft.com%2Fasia%2F">Microsoft Research Asia</a>, Beijing, China</div>  
-    <div style="float:right; text-align:right">Dec. 2019 – Present </div> }}\n 
+    <div style="float:right; text-align:right">Dec. 2019 – Mar. 2021 </div> }}\n 
     Research Intern \n 
     Mentor: [https://jingdongwang2017.github.io/ Dr Jingdong Wang] \n
 - {{<div style="float:left; text-align:left"><a href="https://www.adelaide.edu.au/aiml/home">Australian Institute for Machine Learning</a>, 
@@ -159,15 +160,20 @@ specifically on the topic of Segmentation.
 Title: "Context in Semantic Segmentation", 2019
 - ECCV2018 COCO \& Mapillary Joint Workshop Talk \n
 Title: "MSCOCO \& Mapillary Panoptic Segmentation Challenge 2018", 2018
-: {- Conference Reviewer:} 
+: {- Conference Reviewer:}  
     IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019. \n
     IEEE International Conference on Computer Vision (ICCV) 2019. \n
     Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI) 2020. \n
     IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020. \n
     European Conference on Computer Vision (ECCV) 2020. \n
     Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI) 2021. \n
+    IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021. \n 
+    IEEE International Conference on Computer Vision (ICCV) 2021. \n
 : {- Journal Reviewer:}
+    IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). \n
     IEEE Transactions on Image Processing (TIP). \n
+    Pattern Recognition (PR). \n
+    IEEE Signal Processing Letters (SPL). \n
 
 == Honors & Awards
 - {{<div style="float:left; text-align:left"> <strong>State Scholarship for Study Abroad</strong>(国家建设高水平大学公派研究生奖学金), China Scholarship Council of & </br>  P.R. China</div>
